@@ -40,7 +40,7 @@ urls:
     - text: XML Feed
       url: /feed.xml
 
-url: "https://alonshrestha.com.np/stechalon.com"
+url: "https://alonshrestha.github.io/stechalon.com/"
 baseurl: ""
 paginate: 20
 per_page: 20
