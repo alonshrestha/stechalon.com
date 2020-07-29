@@ -1,0 +1,59 @@
+title: Sharing My Experience
+description: ya chai description.. hai guys only 160 charachetr
+author: sTechalon.com
+aurl: https://alonshrestha.com.np
+about: A computer science student.
+disqus_shortname: 
+google_analytics: 
+
+enableTags: true
+tagarray: []
+
+collections:
+  project:
+    output: true
+    
+    
+permalink: /:title
+
+social:
+    - icon: fa-facebook
+      link: "https://facebook.com/alonhost"
+    - icon: fa-twitter
+      link: "https://twitter.com/stechalon"
+    - icon: fa-linkedin
+      link: "#"
+    - icon: fa-stack-exchange
+      link: "#"
+    - icon: fa-github
+      link: "https://github.io/alonshrestha"
+
+share:
+  twitter_username: stechalon
+  fb_appid: 
+
+urls:
+    - text: About Me
+      url: /about/
+    - text: My Projects
+      url: /projects/
+    - text: XML Feed
+      url: /feed.xml
+
+url: "https://alonshrestha.com.np/stechalon.com"
+baseurl: ""
+paginate: 20
+per_page: 20
+paginate_path: "/page/:num/"
+markdown: kramdown
+gems:
+  - jekyll-paginate
+  - jekyll-gist
+  - jekyll-sitemap
+
+compress_html:
+  clippings: all
+  comments: ["<!-- ", " -->"]
+  endings: all
+  ignore:
+    envs: ['development']
