@@ -282,3 +282,4 @@ ubuntu@ip-xxx-xx-x-xxx:~$ sudo systemctl restart gunicorn  # if you have gunicor
 
 Finally, you can checkout your domain `mydomain.com`, it will automaticly redirect as `https` mode.
 To check your keys chain is correct or not, you can checkout at https://whatsmychaincert.com/?mydomain.com
+    

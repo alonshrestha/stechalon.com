@@ -2,94 +2,41 @@
 layout: post
 title:  "Register .com.np Free In Nepal"
 date:   2013-12-23 00:18:23 +0700
-categories: [ruby]
-image: Register-.com_.np-For-Free.png
+image: register-com-np-free-in-nepal/main.png
 categories: [webhosting]
 tags: 
 - .com.np
 - cover-letter
-- ydomain-free
+- domain-free
 description: "You can now register domain .com.np in Nepal online for free. This article also includes writing cover letter to mercantile regarding domain registration."
 ---
 
-![Register.com.np For Free In Nepal](/static/img/posts/Register-.com_.np-For-Free.png)
-The domain .com.np is the free thing you can add to your online property without paying any single penny in Nepal. With a personal name domain, you can brand your name or services through websites. Most of the people have a blog page or portfolio page with your domain name. I have used my name as a domain (<a rel="noreferrer noopener" href="http://alonshrestha.com.np/" target="_blank">alonshrestha.com.np</a>) for my personal and blog. 
+![Register.com.np For Free In Nepal | stechalon.com](/static/img/posts/register-com-np-free-in-nepal/main.png)
+The domain .com.np is the free thing you can add to your online property without paying any single penny in Nepal. With a personal name domain, you can brand your name or services through websites. Most of the people have a blog page or portfolio page with their self name domain. I have used my name as a domain [alonshrestha.com.np](http://alonshrestha.com.np/){:target="_blank"}for my personal and blog. 
 
 ## What Is .com.np?
 
-In short <a rel="noreferrer noopener" href="https://en.wikipedia.org/wiki/.np" target="_blank">.np</a> is the country top-level <a rel="noreferrer noopener" href="http://babbaldeals.com/tag/domain" target="_blank">domain</a> in Nepal administered by <a rel="noreferrer noopener" href="http://mos.com.np/" target="_blank">Mercantile Communications Pvt. Ltd</a>. Registration of .np with a secondary level like **<a rel="noreferrer noopener" href="http://stechalon.com/tag/.com.np" target="_blank">.com.np</a>**, **edu.np**, **org.np** can be registered by **Nepalese**, **Non-Resident Nepalese**, and even by the **foreigners** having Nepalese residential. 
+In short <a rel="nofollow" href="https://en.wikipedia.org/wiki/.np" target="_blank">.np</a> is the country top-level <a href="http://babbaldeals.com/tag/domain" target="_blank">domain</a> in Nepal administered by <a rel="nofollow" href="http://mos.com.np/" target="_blank">Mercantile Communications Pvt. Ltd</a>. Registration of .np with a secondary level like **<a href="http://stechalon.com/register-com-np-domain-free-in-nepal" target="_blank">.com.np</a>**, **edu.np**, **org.np** can be registered by **Nepalese**, **Non-Resident Nepalese**, and even by the **foreigners** having Nepalese residential. 
 
-If you also want to have a free domain with your name please follow the procedure below. 
+If you also want to have a free domain with your name follow the procedure below. 
 
-<div class="ub_table-of-contents" data-showtext="show" data-hidetext="hide" id="ub_table-of-contents-9a3762da-789d-49e5-afe0-84b8c5e82c7d">
-  <div class="ub_table-of-contents-header">
-    <div class="ub_table-of-contents-title">
-      Table Of Content
-    </div>
-  </div>
-  
-  <div class="ub_table-of-contents-container ub_table-of-contents-1-column ">
-    <ul>
-      <li>
-        <a href=https://stechalon.com/register-com-np-domain-free-in-nepal/#0-what-is-comnp->What Is .com.np?</a>
-      </li>
-      <li>
-        <a href=https://stechalon.com/register-com-np-domain-free-in-nepal/#1-requirements->Requirements</a>
-      </li>
-      <li>
-        <a href=https://stechalon.com/register-com-np-domain-free-in-nepal/#2-procedure>Procedure</a><ul>
-          <li>
-            <a href=https://stechalon.com/register-com-np-domain-free-in-nepal/#3-step-1-check-if-the-domain-is-available->Step 1: Check If The Domain Is Available</a>
-          </li>
-          <li>
-            <a href=https://stechalon.com/register-com-np-domain-free-in-nepal/#4-step-2-register-domain>Step 2: Register Domain</a>
-          </li>
-          <li>
-            <a href=https://stechalon.com/register-com-np-domain-free-in-nepal/#5-step-3-sign-increate-user>Step 3: Sign in/Create User</a>
-          </li>
-          <li>
-            <a href=https://stechalon.com/register-com-np-domain-free-in-nepal/#6-step-4-register-account>Step 4: Register Account</a>
-          </li>
-          <li>
-            <a href=https://stechalon.com/register-com-np-domain-free-in-nepal/#7-step-5-activate-your-account>Step 5: Activate Your Account</a>
-          </li>
-          <li>
-            <a href=https://stechalon.com/register-com-np-domain-free-in-nepal/#8-step-6-sign-in>Step 6: Sign In</a>
-          </li>
-          <li>
-            <a href=https://stechalon.com/register-com-np-domain-free-in-nepal/#9-step-7-domain-registration>Step 7: Domain Registration</a>
-          </li>
-          <li>
-            <a href=https://stechalon.com/register-com-np-domain-free-in-nepal/#10-step-8-administrative-contact>Step 8: Administrative Contact</a>
-          </li>
-          <li>
-            <a href=https://stechalon.com/register-com-np-domain-free-in-nepal/#11-step-9-submit-your-personal-document>Step 9: Submit Your Personal Document</a>
-          </li>
-          <li>
-            <a href=https://stechalon.com/register-com-np-domain-free-in-nepal/#12-sample-cover-letter>Sample Cover Letter</a>
-          </li>
-          <li>
-            <a href=https://stechalon.com/register-com-np-domain-free-in-nepal/#13-step-10-complete-registration>Step 10: Complete Registration</a>
-          </li>
-        </ul>
-      </li>
-    </ul>
-  </div>
-</div>
+> **Table of Content**
 
-## <span style="color:#313131" class="tadv-color">Requirements</span> {#1-requirements-}
+* TOC
+{:toc}
 
+## Requirements
   * Documents (scanned copy of your citizen card or license or passport)
   * Cover letter
   * Gmail Account
 
-## Procedure {#2-procedure}
+## Procedure
 
-### **Step 1:** <span style="color:#313131" class="tadv-color">Check If The Domain Is Available</span> {#3-step-1-check-if-the-domain-is-available-}
+### **Step 1:** Check If The Domain Is Available
 
-Browse <a rel="noreferrer noopener" href="https://register.com.np/" target="_blank">https://register.com.np/</a> and **“Search”** for the domain you want.<figure class="wp-block-image size-large">
+Browse <a rel="nofollow" href="https://register.com.np/" target="_blank">https://register.com.np/</a> and **“Search”** for the domain you want.
 
-![Register .com.np Domain Free In Nepal | stechalon.com](https://raw.githubusercontent.com/alonshrestha/stechalonPostPic/master/Register.com.np/1.png) </figure> 
+![Register .com.np Domain Free In Nepal | stechalon.com](https://raw.githubusercontent.com/alonshrestha/stechalonPostPic/master/Register.com.np/1.png) 
 
 ### **Step 2:** Register Domain {#4-step-2-register-domain}
 
