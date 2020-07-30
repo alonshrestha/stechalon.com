@@ -5,15 +5,15 @@ date:   2013-12-23 00:18:23 +0700
 categories: [ruby]
 image: /static/img/post/Register-.com_.np-For-Free.png
 categories: [webhosting]
-tags:
-  - .com.np
-  - cover-letter
-  - domain
-  - free
+tags: 
+- .com.np
+- cover-letter
+- ydomain-free
+description: "You can now register domain .com.np in Nepal online for free. This article also includes writing cover letter to mercantile regarding domain registration."
 ---
 
-y
 ![Register.com.np For Free In Nepal](/static/img/post/Register-.com_.np-For-Free.png)
+
 The domain .com.np is the free thing you can add to your online property without paying any single penny in Nepal. With a personal name domain, you can brand your name or services through websites. Most of the people have a blog page or portfolio page with your domain name. I have used my name as a domain (<a rel="noreferrer noopener" href="http://alonshrestha.com.np/" target="_blank">alonshrestha.com.np</a>) for my personal and blog. 
 
 ## What Is .com.np?
