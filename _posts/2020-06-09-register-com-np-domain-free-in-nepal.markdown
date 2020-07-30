@@ -3,7 +3,7 @@ layout: post
 title:  "Register .com.np Free In Nepal"
 date:   2013-12-23 00:18:23 +0700
 categories: [ruby]
-image: /static/img/post/Register-.com_.np-For-Free.png
+image: Register-.com_.np-For-Free.png
 categories: [webhosting]
 tags: 
 - .com.np
