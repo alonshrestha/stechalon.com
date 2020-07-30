@@ -1,32 +1,22 @@
 ---
-id: 490
-title: Register .com.np Domain Free In Nepal
-date: 2020-06-09T11:05:04+00:00
-author: alonshrestha
-description: You can now register domain .com.np in Nepal online for free. This article also includes writing cover letter to mercantile regarding domain registration.
 layout: post
-permalink: /register-com-np-domain-free-in-nepal/
-colormag_page_layout:
-  - default_layout
-site-sidebar-layout:
-  - default
-site-content-layout:
-  - default
-theme-transparent-header-meta:
-  - default
-image: /wp-content/uploads/2020/06/Register-.com_.np-For-Free.png
-categories:
-  - Web Hosting
+title:  "Register .com.np Free In Nepal"
+date:   2013-12-23 00:18:23 +0700
+categories: [ruby]
+image: /static/wp-content/uploads/2020/06/Register-.com_.np-For-Free.png
+categories: [webhosting]
 tags:
   - .com.np
   - cover-letter
   - domain
   - free
 ---
-[Register.com.np For Free In Nepal](/wp-content/uploads/2020/06/Register-.com_.np-For-Free.png)
+
+
+![Register.com.np For Free In Nepal](/static/wp-content/uploads/2020/06/Register-.com_.np-For-Free.png)
 The domain .com.np is the free thing you can add to your online property without paying any single penny in Nepal. With a personal name domain, you can brand your name or services through websites. Most of the people have a blog page or portfolio page with your domain name. I have used my name as a domain (<a rel="noreferrer noopener" href="http://alonshrestha.com.np/" target="_blank">alonshrestha.com.np</a>) for my personal and blog. 
 
-## What Is .com.np?  {#0-what-is-comnp-}
+## What Is .com.np?
 
 In short <a rel="noreferrer noopener" href="https://en.wikipedia.org/wiki/.np" target="_blank">.np</a> is the country top-level <a rel="noreferrer noopener" href="http://babbaldeals.com/tag/domain" target="_blank">domain</a> in Nepal administered by <a rel="noreferrer noopener" href="http://mos.com.np/" target="_blank">Mercantile Communications Pvt. Ltd</a>. Registration of .np with a secondary level like **<a rel="noreferrer noopener" href="http://stechalon.com/tag/.com.np" target="_blank">.com.np</a>**, **edu.np**, **org.np** can be registered by **Nepalese**, **Non-Resident Nepalese**, and even by the **foreigners** having Nepalese residential. 
 
