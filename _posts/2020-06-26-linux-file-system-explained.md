@@ -14,8 +14,7 @@ site-content-layout:
 theme-transparent-header-meta:
   - default
 image: /wp-content/uploads/2020/06/Linux-File-System-Explained.png
-categories:
-  - Linux
+categories: [bash]
 tags:
   - BtrFS
   - ext
