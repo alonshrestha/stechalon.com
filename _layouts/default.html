@@ -1,5 +1,6 @@
 ---
 layout: compress
+
 ---
 <!DOCTYPE html>
 <html>
@@ -119,7 +120,7 @@ layout: compress
 <meta property="og:type" content="article">
 <meta property="og:title" content="{%if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
 <meta property="og:url" content="{{ site.url }}{{ page.url }}">
-<meta property="og:image" content="{{ site.url }}/static/img/posts/{{ page.image }}" />
+<meta property="og:image" content="{% if page.image %}{{ site.url }}/static/img/posts/{{ page.image }}{% else %}{{ site.url }}/static/img/posts/{{ site.image }}{% endif %}" />
 <meta property="og:site_name" content="stechalon.com">
 <meta property="article:published_time" content="{{ page.date }}" />
 <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
