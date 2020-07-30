@@ -11,10 +11,9 @@ layout: compress
     <link rel="canonical" href="{{ site.url }}{{ page.url | replace:'index.html',''}}">
     <link rel="shortcut icon" href="/static/img/favicon.ico" />
     <title>{% if page.title %}{{ page.title }} | {{ site.author }}{% else %}{{ site.title }}{% endif %}</title>
-    <!-- <title>{{ page.title }} | {{ site.author }}</title> -->
+
     
     <meta name="author" content="{{ site.author }}" />
-    <!-- <meta itemprop="description" name="description" content="{% if page.title %}{{ page.title }}{% else %}{{ site.description }}{% endif %}" /> -->
     <meta itemprop="description" name="description" content="{% if page.description %}{{ page.description | truncate: 160 }}{% else %}{{ site.description | truncate: 160  }}{% endif %}" />
     <meta name="keywords" content="{% if page.title %}{{ page.title }}, {{ page.tags }}, {% for categ in page.categories %}{{ categ }}{% if forloop.last == false %}, {% endif %}{% endfor %}{% else %}{{ site.title }}, {% for category in site.categories %}{% capture categories_slug %}{{ category | first }}{% endcapture %}{% for categ in categories_slug %}{{ categ }}{% endfor %}{% if forloop.last == false %}, {% endif %}{% endfor %}{% endif %}" />
     <link rel="alternate" type="application/rss+xml" title="RSS" href="/feed.xml">
@@ -47,10 +46,6 @@ layout: compress
       <meta content="{{ page.date | date_to_xmlschema }}" property="article:published_time">
       <meta content="{{ site.url }}/about/" property="article:author">
     {% endif %}
-
-    <!-- {% if page.image %}
-      <meta content="{{ site.url }}/static/img/posts/{{ page.image }}" property="og:image">
-    {% endif %} -->
 
     {% if page.categories %}
       {% for category in page.categories limit:1 %}
