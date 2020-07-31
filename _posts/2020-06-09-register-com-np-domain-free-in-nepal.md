@@ -21,7 +21,7 @@ The domain .com.np is the free thing you can add to your online property without
 
 ## What Is .com.np?
 
-In short <a rel="nofollow" href="https://en.wikipedia.org/wiki/.np" target="_blank">.np</a> is the country top-level <a href="http://babbaldeals.com/tag/domain" target="_blank">domain</a> in Nepal administered by <a rel="nofollow" href="http://mos.com.np/" target="_blank">Mercantile Communications Pvt. Ltd</a>. Registration of .np with a secondary level like **<a href="http://stechalon.com/register-com-np-domain-free-in-nepal" target="_blank">.com.np</a>**, **edu.np**, **org.np** can be registered by **Nepalese**, **Non-Resident Nepalese**, and even by the **foreigners** having Nepalese residential. 
+In short <a rel="nofollow" href="https://en.wikipedia.org/wiki/.np" target="_blank">.np</a> is the country top-level <a href="https://webhosting.alon.com.np/domain.html" target="_blank">domain</a> in Nepal administered by <a rel="nofollow" href="http://mos.com.np/" target="_blank">Mercantile Communications Pvt. Ltd</a>. Registration of .np with a secondary level like **<a href="http://stechalon.com/register-com-np-domain-free-in-nepal" target="_blank">.com.np</a>**, **edu.np**, **org.np** can be registered by **Nepalese**, **Non-Resident Nepalese**, and even by the **foreigners** having Nepalese residential. 
 
 If you also want to have a free domain with your name follow the procedure below. 
 
