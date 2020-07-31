@@ -16,7 +16,7 @@ collections:
     
 permalink: /:title
 
-social:
+social: 
     - icon: fa-facebook
       link: "https://facebook.com/alonhost"
     - icon: fa-twitter
@@ -35,8 +35,8 @@ share:
 urls:
     - text: About Me
       url: /about/
-    - text: My Projects
-      url: /projects/
+    # - text: My Projects
+    #   url: /projects/
     - text: XML Feed
       url: /feed.xml
 
@@ -50,6 +50,7 @@ gems:
   - jekyll-paginate
   - jekyll-gist
   - jekyll-sitemap
+  - jekyll-redirect-from
 
 compress_html:
   clippings: all

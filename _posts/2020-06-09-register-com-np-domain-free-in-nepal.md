@@ -3,7 +3,7 @@ layout: post
 title:  "Register .com.np Free In Nepal"
 date:   2013-12-23 00:18:23 +0700
 image: register-com-np-free-in-nepal/main.png
-categories: [webhosting]
+categories: [webhosting, domain]
 tags: 
 - .com.np
 - cover-letter

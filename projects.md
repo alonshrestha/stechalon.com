@@ -1,8 +1,10 @@
 ---
 layout: project
 title: Projects
+redirect_to:
+  - https://stechalon.com
 permalink: /projects/
-description: project ko description...lol
+# description: project ko description...lol
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.
+
