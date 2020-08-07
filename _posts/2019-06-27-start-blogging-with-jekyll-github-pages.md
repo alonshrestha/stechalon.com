@@ -14,7 +14,7 @@ description: "Create and host your blog for free. Use Jekyll for developing blog
 ---
 
 This is my first [blog](https://stechalon.com/){:target="_blank"} post using [Jekyll](https://jekyllrb.com/){:target="_blank"}{:rel="nofollow"} and [Github Pages](https://pages.github.com/){:target="_blank"}{:rel="nofwollow"}. **Jekyll** is a markdown language used for generating a static page and **Github Pages** is the static page hosting media. I used to have tech-related blogs and [online portfolio](https://blog.alonshrestha.com.np//Portfolio-using-Github/){:target="_blank"} on WordPress named [stechalon.com](https://stechalon.com/){:target="_blank"}.
-## Things You Should Know About Wordpress Before Using It For Blogging.
+## Know About Wordpress Before Using It For Blogging.
 
 **Wordpress** can be setup with in one click which seems to be very easy for everyone. Blogging in Wordpress can be best option for those bloggers who does not have any coding knowlodge and wants their site ready in a minute. 
 
@@ -56,3 +56,4 @@ Here are the some advantages and disadvantes of using jekyll and GitHub-Pages.
 - [Programming and GitHub knowledge are required](#)
 - [Supports Static Sites Only](#)
 
+{% include successCallout.html heading= "Plese let me know your thought on using jekyll and gh-pages for blogging. Also, If you need any help on this reach me commenting down below." %}
