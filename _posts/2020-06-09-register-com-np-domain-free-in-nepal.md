@@ -12,7 +12,7 @@ description: "You can now register domain .com.np in Nepal online for free. This
 ---
 
 ![Register.com.np For Free In Nepal | stechalon.com](/static/img/posts/register-com-np-free-in-nepal/main.png)
-The domain [.com.np](http://https://en.wikipedia.org/wiki/.np){:target="_blank"} {:rel="nofollow"} is the free thing you can add to your online property without paying any single penny in Nepal. With a personal name domain, you can brand your name or services through websites. Most of the people have a blog page or portfolio page with their self name domain. I have used my name as a domain [alonshrestha.com.np](http://alonshrestha.com.np/){:target="_blank"} for my personal and blog.
+The domain [.com.np](http://https://en.wikipedia.org/wiki/.np){:target="_blank"}{:rel="nofollow"} is the free thing you can add to your online property without paying any single penny in Nepal. With a personal name domain, you can brand your name or services through websites. Most of the people have a blog page or portfolio page with their self name domain. I have used my name as a domain [alonshrestha.com.np](http://alonshrestha.com.np/){:target="_blank"} for my personal and blog.
 
 > **Table of Content**
 
