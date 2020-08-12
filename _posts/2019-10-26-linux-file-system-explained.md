@@ -8,8 +8,8 @@ tags:
 - Ubuntu-
 - CentOS-
 - Files-
-- System-
-- Hierarchy-
+- System
+- Hierarchy
 - Types
 description: "The Linux file system is a layer in the operating system that handles data on the storage. File System types like ext4, xfs, NTFS, etc & file system hierarchy."
 ---
