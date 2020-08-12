@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "How To Register .com.np Free In Nepal 2020"
-date:   2013-12-23 00:18:23 +0700
+date:   2020-06-09 00:18:23 +0700
 image: register-com-np-free-in-nepal/main.png
 categories: [webhosting, domain]
 tags: 

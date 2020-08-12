@@ -7,6 +7,7 @@ body {
   color: #333333;
   
 }
+
 hr {
   margin-top: 20px;
   margin-bottom: 20px;
@@ -174,4 +175,9 @@ div.col-sm-3 div.profile-about {
   div.col-sm-3 {
     margin-top: 30px;
   }
+}
+td, th {
+  padding: 5px;
+  border-collapse: collapse;
+  border: 1px solid #298dcc;
 }

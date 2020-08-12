@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Blog With Jekyll & GitHub Pages Use Custom Domain"
-date:   2013-12-23 00:18:23 +0700
+date:   2019-06-27 00:18:23 +0700
 image: start-blogging-with-jekyll-github-pages/1.png
 categories: [jekyll, github-pages]
 tags: 

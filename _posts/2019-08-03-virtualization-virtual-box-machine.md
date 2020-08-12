@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "What Is Virtualization? Beginner' s Guide"
-date:   2013-12-23 00:18:23 +0700
+date:   2019-10-03 00:18:23 +0700
 image: what-is-virtualization/1.jpg
 categories: [virtualization]
 tags: 
