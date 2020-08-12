@@ -88,7 +88,7 @@ layout: compress
 <meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
 <meta name="twitter:site" content="@stechalon" />
 <meta name="twitter:creator" content="@stechalon">
-<meta name="twitter:image:src" content="{{ site.url }}/{{ page.header-img }}">
+<meta name="twitter:image:src" content="{% if page.image %}{{ site.url }}/static/img/posts/{{ page.image }}{% else %}{{ site.url }}/static/img/posts/{{ site.image }}{% endif %}">
 <meta name="twitter:card" content="summary">
   </head>
   <body>
