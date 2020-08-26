@@ -17,14 +17,12 @@ collections:
 permalink: /:title
 
 social: 
-    - icon: fa-facebook
-      link: "https://facebook.com/alonhost"
+    - icon: fa-instagram
+      link: "https://instagram/a.l_o.n/"
     - icon: fa-twitter
       link: "https://twitter.com/stechalon"
     - icon: fa-linkedin
-      link: "#"
-    - icon: fa-stack-exchange
-      link: "#"
+      link: "https://www.linkedin.com/in/alonshrestha/"
     - icon: fa-github
       link: "https://github.io/alonshrestha"
 
