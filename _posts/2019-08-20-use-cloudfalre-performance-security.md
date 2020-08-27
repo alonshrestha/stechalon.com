@@ -41,4 +41,4 @@ Now, the  visitors of your websites will be served from the <span style="color:#
 * DNS Management
 * Free SSL/TSL Encryption
 * Block DoS and DDos
-* Save Bandwidth]
+* Save Bandwidth
