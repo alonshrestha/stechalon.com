@@ -57,7 +57,7 @@ This virtualization uses network resources of a physical server and provides ser
 - Reduce time spent
 - Reduce cost
 - Increase productivity
-- Ease backup and swift recovery
+- [Ease backup and swift recovery](https://stechlaon.com/install-systemback-restore-previous-state-ubuntu-linux){:target="_blank"}
 - Security
 - Shifting to cloud
 
