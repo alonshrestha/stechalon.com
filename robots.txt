@@ -1,4 +1,4 @@
 User-agent: *
 Disallow: /projects/
 Disallow: /project/
-Sitemap: http://localhost:4000/sitemap.xml
+Sitemap: https://stechalon.com/sitemap.xml
