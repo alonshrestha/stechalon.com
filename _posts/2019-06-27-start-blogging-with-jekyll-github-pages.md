@@ -13,8 +13,8 @@ tags:
 description: "Create and host your blog for free. Use Jekyll for developing blogging sites and GitHub pages for hosting your blog for free. Use custom domain in your blog."
 ---
 
-![Blog With Jekyll And GitHub Pages Use Custom Domain | stechalon.com](/static/img/posts/start-blogging-with-jekyll-github-pages/1.png)
-This is my first [blog](https://stechalon.com/){:target="_blank"} post using [Jekyll](https://jekyllrb.com/){:target="_blank"}{:rel="nofollow"} and [Github Pages](https://pages.github.com/){:target="_blank"}{:rel="nofwollow"}. **Jekyll** is a markdown language used for generating a static page and **Github Pages** is the static page hosting media. I used to have tech-related blogs and [online portfolio](https://blog.alonshrestha.com.np//Portfolio-using-Github/){:target="_blank"} on WordPress named [stechalon.com](https://stechalon.com/){:target="_blank"}.
+![Blog With Jekyll And GitHub Pages Use Custom Domain | stechalon.com](/static/img/posts/start-blogging-with-jekyll-github-pages/1.png)<br><br>
+This is my first blog post using [Jekyll](https://jekyllrb.com/){:target="_blank"}{:rel="nofollow"} and [Github Pages](https://pages.github.com/){:target="_blank"}{:rel="nofollow"}. **Jekyll** is a markdown language used for generating a static page and **Github Pages** is the static page hosting media. I used to have tech-related blogs and [online portfolio](https://stechalon.com/create-online-portfolio-using-github-pages){:target="_blank"} on WordPress named [stechalon.com](https://stechalon.com/){:target="_blank"}.
 
 > **Table of Content**
 
@@ -25,7 +25,7 @@ This is my first [blog](https://stechalon.com/){:target="_blank"} post using [Je
 
 **Wordpress** can be setup with in one click which seems to be very easy for everyone. Blogging in Wordpress can be best option for those bloggers who does not have any coding knowlodge and wants their site ready in a minute. 
 
-However, you need to pay <span style="color:#bb1919" >*money*</span> for hosting your wordpress site using custom domain. Your billing charges on wordpress hosting depends on how much <span style="color:#bb1919" >*bandwidth and space*</span> you use. When I encountered github-pages and digging more into it. I got to know that I can host my blog for <span style="color:#bb1919" >*free*</span> using <span style="color:#bb1919" >*cusotom domain*</span>.
+However, you need to pay <span style="color:#bb1919" >*money*</span> for hosting your wordpress site using custom [domain](https://stechalon.com/register-com-np-domain-free-in-nepal){:target="_blank"}. Your billing charges on wordpress hosting depends on how much <span style="color:#bb1919" >*bandwidth and space*</span> you use. When I encountered github-pages and digging more into it. I got to know that I can host my blog for <span style="color:#bb1919" >*free*</span> using <span style="color:#bb1919" >*cusotom domain*</span>.
 
 ## Why Did I Migrate From Wordpress To Github-Pages?
 
@@ -52,15 +52,15 @@ Here are the some advantages and disadvantes of using jekyll and GitHub-Pages.
 
 ## Pors and Cons Of Using Jekyll And Github Pages For Blogging
 ### Pros
-- [Free of cost](#)
-- [Security and Reliability](#)
-- [Use Custom Domain](#)
-- [Custom Theme](#)
-- [Fast because of a static page](#)
-- [No Database](#)
+- Free of cost
+- Security and Reliability
+- Use Custom Domain
+- Custom Theme
+- Fast because of a static page
+- No Database
 
 ### Cons
-- [Programming and GitHub knowledge are required](#)
-- [Supports Static Sites Only](#)
+- Programming and GitHub knowledge are required
+- Supports Static Sites Only
 
 {% include successCallout.html heading= "Plese let me know your thought on using jekyll and gh-pages for blogging. Also, If you need any help on this reach me commenting down below." %}

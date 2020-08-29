@@ -14,7 +14,7 @@ tags:
 description: "The Linux file system is a layer in the operating system that handles data on the storage. File System types like ext4, xfs, NTFS, etc & file system hierarchy."
 ---
 
-![What Is Linux File System? Explained](static/img/posts/linux-file-system-explained/main.png)  
+![What Is Linux File System? Explained](static/img/posts/linux-file-system-explained/main.png)<br><br>  
 All the files on the [Linux](https://stechalon.com/category/linux){:target= "_blank"} are organized into a single inverted [tree directory](https://en.wikipedia.org/wiki/Directory_information_tree){:target="_blank"}{:rel="nofollow"} which is also known as <span style="color:#bb1919">*file system hierarchy*</span>. The Linux file system or the file system is a layer in the operating system which handles your data on the storage, which allows the system to know and use it at the beginning and end of the operation. 
 
 By default, Linux has organized directories which is similar to almost all Linux file system. In this article, we will know about different types of <span style="color:#bb1919">*Linux File System*</span> and the <span style="color:#bb1919">*Linux File System Hierarchy*</span>.
@@ -26,7 +26,7 @@ By default, Linux has organized directories which is similar to almost all Linux
 
 # Linux File System Types
 
-Linux provides different types of file system formats for partitioning the disk which is listed below. Each has its own merits of the use.
+Linux provides different types of file system formats for [partitioning the disk](https://stechalon.com/virtualization-virtual-box-machine#history-of-virtualization){:target="_blank"} which is listed below. Each has its own merits of the use.
  
 |File Type  | Explanation| 
 |:------|:--|
@@ -75,7 +75,7 @@ drwxr-xr-x.  21 root root 4096 Jul 22 14:05 var
 
 {% endhighlight %}
 
-Form the above sketch you can see `->` symbol pointing multiple directories in  `/usr/` directory.  This indicates that the directories  `bin` , `lib` , `lib64` and `sbin` are the [symbolic links](https://blog.alonshrestha.com.np/Understanding-Hard-and-Soft-Links-In-Linux/){: target="_blank"} from `/usr/`.
+Form the above sketch you can see `->` symbol pointing multiple directories in  `/usr/` directory.  This indicates that the directories  `bin` , `lib` , `lib64` and `sbin` are the [symbolic links](https://stechalon.com/understand-create-hard-soft-symbolic-links-linux){: target="_blank"} from `/usr/`.
 
 Table below describes the directories.
 
@@ -100,6 +100,6 @@ Table below describes the directories.
 | **/root**  |  Home directory of `root user`. |
 | **/proc**  |  Contains files that give information about `kernel and CPU`.  |
 | **/sys**   | Similar to `/proc` that contains information about the connected devices from your computer.   |
-| **/lost+found** |  Files that are saved during `system failures`.  |
+| **/lost+found** |  Files that are saved during [system failures](https://stechalon.com/install-systemback-restore-previous-state-ubuntu-linux){:target="_blank"}.  |
 
 {% include summaryCallout.html heading= "Summary" content= "In this article, you learned the concept of Linux file system types and hierarchy. Please feel free to write me if need any help." %}

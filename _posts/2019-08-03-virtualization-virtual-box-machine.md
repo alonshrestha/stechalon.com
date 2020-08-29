@@ -19,7 +19,7 @@ description: "Virtualization is the creation of virtual rather than actual. This
 
 The era of [virtualization](https://en.wikipedia.org/wiki/Virtualization){:target="_blank"} might not end for couple more decade. Since the last <span style="color:#bb1919" >*60 years*</span>, virtualization has been providing a significant range of benefits in Information Technology like no other advance technology has. This technology has changed the determining world with virtualization.
 
-The simple concept of virtualization is making high impact on server data centers. The world is being assumed as an insider of virtualization and technician are engaged to make it real sooner or later.
+The simple concept of virtualization is making high impact on [server data centers](https://stechalon.com/use-cloudfalre-performance-security){:target="_blank"}. The world is being assumed as an insider of virtualization and technician are engaged to make it real sooner or later.
 
 Though this concept is leading the world when it comes to understanding and arguments, people think to have multiple operating systems in a single machine as virtualization which means dividing a single physical machine into multiple virtual machines. Living in today's world this explanation might not be enough to understand the working of virtualization. This article is for those who are enthusiastic and beginner to the virtualization.
 
@@ -29,7 +29,7 @@ Though this concept is leading the world when it comes to understanding and argu
 {:toc}
 
 # What is Virtualization?
-In a very simple way, virtualization is the creation of [virtual(rather than actual)](https://en.wikipedia.org/wiki/Virtual){:target="_blank"}{:rel="nofollow"}. This technology lets you run multiple virtual machines on a single physical machine. The resources of a single physical machine are being shared with multiple virtual machines. Each virtual machine can run and interact independently with others. They are isolated with each other due to which if one crashes, it doesn't affect others.
+In a very simple way, virtualization is the creation of [virtual(rather than actual)](https://en.wikipedia.org/wiki/Virtual){:target="_blank"}{:rel="nofollow"}. This technology lets you run multiple virtual machines on a single physical machine. The resources of a single physical machine are being shared with multiple virtual machines. Each virtual machine can run and interact independently with others. They are isolated with each other due to which if one [crashes](https://stechalon.com/install-systemback-restore-previous-state-ubuntu-linux){:target="_blank"}, it doesn't affect others.
 
 
 
@@ -58,7 +58,7 @@ This virtualization uses network resources of a physical server and provides ser
 - Reduce cost
 - Increase productivity
 - [Ease backup and swift recovery](https://stechlaon.com/install-systemback-restore-previous-state-ubuntu-linux){:target="_blank"}
-- Security
+- [Security](https://stechalon.com/use-cloudfalre-performance-security){:target="_blank"}
 - Shifting to cloud
 
 ## Demerits
