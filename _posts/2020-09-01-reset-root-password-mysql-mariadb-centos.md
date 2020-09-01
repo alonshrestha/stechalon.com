@@ -84,9 +84,9 @@ First change the database. For that use the command <span style="color:#bb1919">
 MariaDB [(none)]> use mysql;
 {%endhighlight%}
 
-After using the mysql database, update the password of root user. For that use the command  <span style="color:#bb1919">*'update mysql.user SET PASSWORD=PASSWORD("yourNewStrongPassword") WHERE USER='root';'*</span>.
+After using the mysql database, update the password of root user. For that use the command  <span style="color:#bb1919">*'update mysql.user SET PASSWORD=PASSWORD("StrongPassword") WHERE USER='root';'*</span>.
 {%highlight ruby%}
-MariaDB [mysql]> update user SET PASSWORD=PASSWORD("yourNewStrongPassword") WHERE USER='root';
+MariaDB [mysql]> update user SET PASSWORD=PASSWORD("NewStrongPassword") WHERE USER='root';
 {%endhighlight%}
 Flush Privileges using command <span style="color:#bb1919">*'flush privileges;'*</span>.
 {%highlight ruby%}
