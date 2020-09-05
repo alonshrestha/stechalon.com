@@ -62,7 +62,7 @@ Now you know how to create and execute the script file. Let's learn the most com
 [**2. Series Of Command**](#writing-series-of-command-in-bash-script)<br>
 [**3. Commenting**](#types-of-comment-in-bash-script)<br>
 [**4. Variables**](#variables-in-bash-script)<br>
-[**5. Conditional Statement**](#conditional-statement-in-bash)<br>
+[**5. Conditional Statement**](#conditional-statement-in-bash-script)<br>
 [**6. Loops**](#using-loops-in-bash-script)<br>
 [**7. Function**](#using-function-in-bash-script)<br>
 
