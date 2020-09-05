@@ -111,7 +111,7 @@ Execute the firstScript.sh file.
 
 **Output:**
 
-<span style="color:#bb1919">*Hello World*</span>.
+<span style="color:#bb1919">*Hello World*</span>
 
 # Writing Series Of Command In Bash Script
 
