@@ -22,10 +22,14 @@ layout: compress
     {% if page.url == "/404.html" %}
     <meta http-equiv="refresh" content="5; url=/">
     {% endif %}
-
-    {% if page.noindex %}
-      <meta name="robots" content="noindex">
+    
+    {%if page.robots %}
+    <meta name="robots" content="{{page.robots}}">
     {% endif %}
+
+    <!-- {% if page.noindex %}
+      <meta name="robots" content="noindex">
+    {% endif %} -->
 
     {% if page.date %}
       <meta content="{{ page.date | date_to_xmlschema }}" property="article:published_time">
