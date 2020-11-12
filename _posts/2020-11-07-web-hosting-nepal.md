@@ -65,7 +65,7 @@ If you have better suggestions than mentioned below companies then please let me
 - **[eHostingServer](https://client.ehostingserver.com/aff.php?aff=338){:target="_blank"}{:rel="nofollow"}** (Best Hosting For Scalability & Growth)
 
 ## 1. Himalayan Host
-![Top 5 Web Hosting In Nepal | sTechalon.com](/static/img/posts/web-hosting-nepal/h1.webp)
+![Himalayan Host | Top 5 Web Hosting In Nepal | sTechalon.com](/static/img/posts/web-hosting-nepal/h1.webp)
 
 [Himalayan Host](https://www.himalayanhost.com/aff.php?aff=259){:target="_blank"}{:rel="nofollow"} is one of the most popular and the first cPanel Authorized Partners in Nepal. They have been in the web host business since 2007 winning different awards and have thousands plus happy customers.
 
@@ -84,7 +84,7 @@ Also, check all the [plans](https://www.himalayanhost.com/store/web-hosting-nepa
 I suggest you choose the Himalayan host if you are a beginner and WordPress blogger.
 
 ## 2. Prabhu Host
-![Top 5 Web Hosting In Nepal | sTechalon.com](/static/img/posts/web-hosting-nepal/h2.webp)
+![Prabhu Host |Top 5 Web Hosting In Nepal | sTechalon.com](/static/img/posts/web-hosting-nepal/h2.webp)
 
 Trusting web hosting companies in Nepal is really tough. You can be cheated on services and prices.
 
@@ -106,7 +106,7 @@ View their [store](https://www.prabhuhost.com/aff.php?aff=191){:target="_blank"}
 
 
 ## 3. AGM Web Hosting
-![Top 5 Web Hosting In Nepal | sTechalon.com](/static/img/posts/web-hosting-nepal/h3.webp)
+![AGM Web Hosting | Top 5 Web Hosting In Nepal | sTechalon.com](/static/img/posts/web-hosting-nepal/h3.webp)
 
 [AGM(Astute Gregarious and Matchless) Web Hosting](https://nepal.agmwebhosting.com/webhosting/aff.php?aff=332){:target="_blank"}{:rel="nofollow"} is an Indian based web hosting company targeted for multiple countries' users. AGM has two branches in Nepal i.e Kathmandu and Butwal.
 
@@ -123,7 +123,7 @@ They have different plans with optimized server performance for hosting WordPres
 Know their different [hosting plans](https://nepal.agmwebhosting.com/webhosting/aff.php?aff=332){:target="_blank"}{:rel="nofollow"} and let me know which is perfect for you.
 
 ## 4. Gurkha Host
-![Top 5 Web Hosting In Nepal | sTechalon.com](/static/img/posts/web-hosting-nepal/h4.webp)
+![Gurkha Host | Top 5 Web Hosting In Nepal | sTechalon.com](/static/img/posts/web-hosting-nepal/h4.webp)
 
 [Gurkha Host](https://business.thulo.com/account/aff.php?aff=153){:target="_blank"}{:rel="nofollow"} is one of the cheapest web-hosting providers in Nepal.
 
@@ -142,7 +142,7 @@ Get a startup plan at only Rs 25 per month. This is the cheapest web hosting pro
 Know all the hosting plans that [Gurkah Host](https://business.thulo.com/account/aff.php?aff=153){:target="_blank"}{:rel="nofollow"} provides and let me know your perfect plan in the comment below.
 
 ## 5. eHostingServer
-![Top 5 Web Hosting In Nepal | sTechalon.com](/static/img/posts/web-hosting-nepal/h5.webp)
+![eServerHosting | Top 5 Web Hosting In Nepal | sTechalon.com](/static/img/posts/web-hosting-nepal/h5.webp)
 
 Since 2010 [eHostingServer](https://client.ehostingserver.com/aff.php?aff=338){:target="_blank"}{:rel="nofollow"} has been providing amazing service to its customers in Nepal.
 
