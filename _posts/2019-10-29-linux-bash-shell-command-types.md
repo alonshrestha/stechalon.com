@@ -13,8 +13,6 @@ tags:
 - Types
 description: "There are three types of command in Linux bash shell Aliases, Internal Command, and External Command. Know its work and how to use it."
 ---
-
-![Different Types Of Linux Bash Shell Command | sTechalon.com](/static/img/posts/linux-bash-shell-command-types/1.png)<br><br>
 There are three kind of command found on [Linux Bash Shell (Bourne Again Shell)](https://en.wikipedia.org/wiki/Bash_(Unix_shell)){:target="_blank"}{:rel="nofollow"}. 
 
 * Aliases

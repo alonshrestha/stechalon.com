@@ -11,7 +11,6 @@ tags:
 - system-image
 description: "Steps to install SystemBack in Ubuntu and restore your system to the previous state creating a live image backup of user configuration without any data loss."
 ---
-![Install SystemBack In Ubuntu & Restore To Previous State | sTechalon.com](/static/img/posts/install-systemback-restore-previous-state-ubuntu-linux/10.jpg)<br><br>
 ## What is SystemBack?
 
 <span style="color:#bb1919" >*SystemBack*</span> is an open-source application for [Linux](https://stechalon.com/category/linux){:target="_blank"} which makes it easy to create live backup images of your system and user saved configurations. People who are new to Linux make mistakes with the configuration of system [root files](https://stechalon.com/linux-file-system-explained){:target="_blank"} and as a result, crash the system. In this case, [SystemBack](https://launchpad.net/systemback){:target="_blank"}{:rel="nofollow"} is a helpful application for backing up and [restoring your system](https://stechalon.com/reset-root-password-mysql-mariadb-centos){:target="_blank"} in the previous state.

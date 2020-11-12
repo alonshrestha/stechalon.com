@@ -13,7 +13,6 @@ tags:
 - reset-passsword
 description: "Forgot mysql/mariadb root password?  Rest, change or recover the root password of mysql using skip grant tables command in centOS Linux."
 ---
-![Reset MySQL/MariaDB Root Password In CentOS 8 | sTechalon.com](/static/img/posts/reset-root-password-mysql-mariadb-centos/1.png)<br><br>
 [MariaDB](https://mariadb.org/){:target="_blank"}{:rel="nofollow"} root user has full privileges to access every data in the databases. Being human, users sometimes make mistakes or forget the root password. Using different [types of command](https://stechalon.com/linux-bash-shell-command-types){:target="_blank"} will rest your mysql root passowrd without any [data loss](https://stechalon.com/install-systemback-restore-previous-state-ubuntu-linux){:target="_blank"}. In this article, you will learn how to reset the root password of MariaDB on centOS 8 following the steps below.
 
 {% include note.html content= "You must have root access on the server to reset mariadb root password." %}

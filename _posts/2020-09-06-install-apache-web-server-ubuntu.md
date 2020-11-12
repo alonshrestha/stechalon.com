@@ -15,7 +15,6 @@ tags:
 - Http
 description: "Install the apache2 web server in Ubuntu 20.04.01 Linux within 3 steps. Configure firewall, server start-stop and enable, virtual host. Allow default port 80 from ufw."
 ---
-![How To Install Apache Web Server In Ubuntu 20.04](/static/img/posts/install-apache-web-server-ubuntu/1.png)<br><br>
 Apache [web server](https://stechalon.com/start-blogging-with-jekyll-github-pages#why-did-i-migrate-from-wordpress-to-github-pages){:target="_blank"} is an open source software application that activates your machine to [HTTP](https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol){:target="_blank"}{:rel="nofollow"} server. This allows the machine to serve the http request recived from the user. Installing apache web server in Ubuntu is free and easy. This article provides a simple tutorial on installing apache web server in  <span style="color:#bb1919">*Ubuntu 20.04*</span>.
 
 > **Requirements**<br>

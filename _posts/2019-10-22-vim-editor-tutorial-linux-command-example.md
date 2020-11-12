@@ -14,7 +14,6 @@ tags:
 - tutorials
 description: "Vim is an improved version of the vi editor. Vi which stands for Visual Interface. This tutorial provides you how to use vim with its command and examples."
 ---
-![Using Vim Editor In Linux Tutorial With Command | sTechalon.com](/static/img/posts/vim-editor-tutorial-linux-command-example/1.png)<br><br>
 Editing files is the most frequent job done by the system admin on [Linux](https://stechalon.com/category/linux){:target="_blank"}. Most of the configuration of Linux is done through files. So, managing a Linux server often means working with the [files on Linux](https://stechalon.com/linux-file-system-explained){:target="_blank"}. 
 
 The important advantages of using files for config on Linux is that they can be moved or share between the system without any changes and also can be edit with a variety of text editors available.

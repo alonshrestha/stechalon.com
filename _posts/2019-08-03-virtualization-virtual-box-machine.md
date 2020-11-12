@@ -15,8 +15,6 @@ tags:
 - azure
 description: "Virtualization is the creation of virtual rather than actual. This technology lets you run multiple virtual machines on a single physical machine. VMware, Oracle, etc."
 ---
-![What is Virtualization? Beginner's Guide](/static/img/posts/what-is-virtualization/1.jpg)
-
 The era of [virtualization](https://en.wikipedia.org/wiki/Virtualization){:target="_blank"} might not end for couple more decade. Since the last <span style="color:#bb1919" >*60 years*</span>, virtualization has been providing a significant range of benefits in Information Technology like no other advance technology has. This technology has changed the determining world with virtualization.
 
 The simple concept of virtualization is making high impact on [server data centers](https://stechalon.com/use-cloudfalre-performance-security){:target="_blank"}. The world is being assumed as an insider of virtualization and technician are engaged to make it real sooner or later.

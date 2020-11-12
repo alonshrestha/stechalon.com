@@ -15,8 +15,6 @@ tags:
 - attached-detached
 description: "How to use screen command in Linux for running multiple tasks in the background. It allows you to share and run multi sessions even if you are not on screen."
 ---
-
-![Using Screen Command In Linux With Examples | sTechalon.com](/static/img/posts/using-screen-command-linux/1.png)<br><br>
 [Screen command](https://stechalon.com/linux-bash-shell-command-types){:target="_blank"} on Linux is a useful utility for those people who work on multiple screen using SSH session. This command allows you to open multiple session in a terminal even if you are not in a graphical session. This also allows you to share a session with other users or to attach and detach to a remote terminal session. Screen command is used when you need to perform a long-running task on a remote machine.
 # Installing Screen
 **Debian base system**

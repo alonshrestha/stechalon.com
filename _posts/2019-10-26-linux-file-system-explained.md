@@ -13,8 +13,6 @@ tags:
 - Types
 description: "The Linux file system is a layer in the operating system that handles data on the storage. File System types like ext4, xfs, NTFS, etc & file system hierarchy."
 ---
-
-![What Is Linux File System? Explained](static/img/posts/linux-file-system-explained/main.png)<br><br>  
 All the files on the [Linux](https://stechalon.com/category/linux){:target= "_blank"} are organized into a single inverted [tree directory](https://en.wikipedia.org/wiki/Directory_information_tree){:target="_blank"}{:rel="nofollow"} which is also known as <span style="color:#bb1919">*file system hierarchy*</span>. The Linux file system or the file system is a layer in the operating system which handles your data on the storage, which allows the system to know and use it at the beginning and end of the operation. 
 
 By default, Linux has organized directories which is similar to almost all Linux file system. In this article, we will know about different types of <span style="color:#bb1919">*Linux File System*</span> and the <span style="color:#bb1919">*Linux File System Hierarchy*</span>.

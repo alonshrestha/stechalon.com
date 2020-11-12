@@ -16,8 +16,6 @@ tags:
 - Beginners-Guide
 description: "Learn basic to advance bash shell scripting language in Linux/Unix. This article provides tutorials to the beginners who are new to the bash shell command."
 ---
-
-![Basic Bash Scripting Tutorials For Beginners | sTechalon.com](/static/img/posts/basic-important-bash-scripting-tutorials/1.png)<br><br>
 <span style="color:#bb1919">*Bash Scripting*</span> is a simple plain text that contains a [series of commands](https://stechalon.com/linux-bash-shell-command-types){:target="_blank"}. The commands used in bash scripting are the same commands that we use in linux shells (**eg:** **cp**, **mv**, **mkdir** etc). This series of commands request the computer to do the required operation.
 
 # Creating Bash Script File

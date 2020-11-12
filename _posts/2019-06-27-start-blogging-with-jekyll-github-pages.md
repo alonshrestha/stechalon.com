@@ -12,8 +12,6 @@ tags:
 - blogging
 description: "Create and host your blog for free. Use Jekyll for developing blogging sites and GitHub pages for hosting your blog for free. Use custom domain in your blog."
 ---
-
-![Blog With Jekyll And GitHub Pages Use Custom Domain | stechalon.com](/static/img/posts/start-blogging-with-jekyll-github-pages/1.png)<br><br>
 This is my first blog post using [Jekyll](https://jekyllrb.com/){:target="_blank"}{:rel="nofollow"} and [Github Pages](https://pages.github.com/){:target="_blank"}{:rel="nofollow"}. **Jekyll** is a markdown language used for generating a static page and **Github Pages** is the static page hosting media. I used to have tech-related blogs and [online portfolio](https://stechalon.com/create-online-portfolio-using-github-pages){:target="_blank"} on WordPress named [stechalon.com](https://stechalon.com/){:target="_blank"}.
 
 > **Table of Content**

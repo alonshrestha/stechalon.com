@@ -2,7 +2,7 @@
 layout: default
 ---
 <header class="post-header">
-  <h1 class="post-title">{{ page.title }}</h1>
+  <h1 class="post-title">{%if page.heading%}{{page.heading}}{% else %}{{page.title}}{% endif %}</h1>
 </header>
 
 <span class="time">{{ page.date | date_to_string }}</span>
@@ -12,7 +12,10 @@ layout: default
   </span>
 {% endif %}
 
+
+<!-- Post Content -->
 <div class="content">
+  <img style="margin-bottom:14px;" src="{{ site.url }}/static/img/posts/{{ page.image }}" alt="{{ page.title }}">
   <div class="post">{{ content }}</div>
   {% include share-page.html %}
 </div>

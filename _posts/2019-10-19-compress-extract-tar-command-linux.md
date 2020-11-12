@@ -16,8 +16,6 @@ tags:
 - bz2
 description: "How to compress and extract files in Linux using tar command with examples. What is tar command and how to use in Linux for unzip and zip .tar .gz archive?"
 ---
-
-![Compress & Extract Files In Linux Using Tar Command | sTechalon.com](/static/img/posts/compress-extract-tar-command-linux/1.png)<br><br>
 Managing and working with file compression and archive is the most important file-related task in Linux. [tar](https://en.wikipedia.org/wiki/Tar_(computing)){:target="_blank"}{:rel="nofollow"} command is known as <span style="color:#bb1919">*Tape ARchive*</span> which is used to create an archive of [files in Linux](https://stechalon.com/linux-file-system-explained){:target="_blank"}. This command creates an archive without compression. 
 
 For creating an archive file with compression, you need to use specific compression tools or need to specify an option that compresses the archive while it is created. In this article, we will learn how to manage and work with archives and compressed files. 

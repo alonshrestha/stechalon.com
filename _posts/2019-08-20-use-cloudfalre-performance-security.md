@@ -10,8 +10,6 @@ tags:
 - Fast-Secure
 description: "Cloudflare provides CDN services with security and performance to your website. Implementing CDN in your website minimizes and optimizes your website speed. "
 ---
-
-![Use Cloudflare For Performace & Security To Your Website | sTechalon.com](/static/img/posts/use-cloudfalre-performance-security/1.jpg)<br><br>
 Do you wait more than <span style="color:#bb1919" >*5 sec*</span> for a site to load? As far as I am concerned, you surely don’t. Many of you haven't heard about [Cloudflare](https://www.cloudflare.com/){:target="_blank"}{:rel="nofollow"}, unlike if you are interested in networking and cybersecurity. There is a full factor moving on the web worldwide through Cloudflare. In this article we will be discussing on Cloudflare, how does it work and why should we use it.
 
 Cloudflare is a <span style="color:#bb1919" >*free web-based application*</span> that provides content delivery services with security and performance. Most of the people including me use this application for powering websites.

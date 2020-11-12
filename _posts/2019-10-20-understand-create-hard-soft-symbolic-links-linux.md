@@ -12,7 +12,6 @@ tags:
 - hard-link
 description: "Links are assigned to file on Linux which works as aliases. There are two types of links on Linux Symbolic Link (Soft link) and Hard link. How to use links in Linux"
 ---
-![Difference Between Hard Link & Soft Link In Linux | sTechalon.com](static/img/posts/understand-create-hard-soft-symbolic-links-linux/1.png)<br><br>
 **Links** are assigned to file on Linux which works as [aliases](https://www.dictionary.com/browse/alias){:target="_blank"}{:rel="nofollow"}. There are two types of links on Linux <span style="color:#bb1919">*Symbolic Link (Soft link)*</span> and <span style="color:#bb1919">*Hard link*</span>. If you understand what this links are in Linux and how to use it? This makes you easy to work on [Linux File System](https://stechalon.com/linux-file-system-explained){:target="_blank"}.
 
 On Linux, every file has an [inode](https://en.wikipedia.org/wiki/Inode){:target="_blank"}{:rel="nofollow"}, and in the inode, administrative information is stored. Information like :

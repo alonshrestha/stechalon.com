@@ -10,8 +10,6 @@ tags:
 - Github-Pages
 description: "Create and host your online portfolio in just 3 steps using Github pages. Using HTML or markdown languages hosts your profile free for a lifetime."
 ---
-
-![3 Steps To Create Online Portfolio Using Github Pages | sTechalon.com](/static/img/posts/create-online-portfolio-using-github-pages/10.png)<br><br> 
 Digital world demands a digitized documents. Digitizing your profile, you are explicitly representing your identity in a customized desktop environment. Having an online profile website is the best way you can impress your colleague. This will have an immediate impact to the people you want to work with. By presenting your professional ability and marking your identity online. 
 
 There are several ways to make a online profile and host it. In this article, I will be teach you to create and [host your profile free](https://stechalon.com/start-blogging-with-jekyll-github-pages){:target="_blank"} for lifetime using [Github Pages](https://stechalon.com/start-blogging-with-jekyll-github-pages#why-did-i-migrate-from-wordpress-to-github-pages){:target="_blank"} in just 3 steps.
