@@ -39,7 +39,7 @@ If you have searched or tried to buy hosting services then you should have heard
 
 These terms are nothing but just a hosting service categorized for you according to your website types.
 
-Let me explain these terms in short for you. If you already know what these terms mean then you can [skip this part](http://localhost:4000/web-hosting-nepal#reseller-hosting).
+Let me explain these terms in short for you. If you already know what these terms mean then you can [skip this part](https://stechalon.com/web-hosting-nepal#reseller-hosting).
 
 ### Shared Hosting (For Beginners)
 In shared hosting single server resources are being shared with multiple users. The individual user hosting their website on this server has no idea about other users hosting their websites on the same server. Individual customers will have a limited number of resources.
