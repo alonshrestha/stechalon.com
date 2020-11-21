@@ -1,6 +1,6 @@
 ---
 layout: posts_by_category
 categories: webhosting
-title: WebHosting
+title: Web Hosting
 permalink: /category/webhosting
 ---

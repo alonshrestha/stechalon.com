@@ -1,9 +1,10 @@
-title: Tech - Tips, Tricks, & Tutorials | sTechalon.com
+title: Tech - Tips, Tricks, & Tutorials
+site-name: sTechalon.com
 sub-title: Sharing My Experience
-description: A guy from Nepal sharing his experience on Tech. Articles and tutorials about System and Network, SEO, Social Media, Web Hosting, Servers, and others.
-author: sTechalon.com
+description: Hi, I am Alon Shrestha owner of this website and I am sharing my experience and interest on Tech.
+author: Alon Shrestha
 aurl: https://alonshrestha.com.np
-about: A computer science student.
+about: Hi, I am Alon Shrestha.
 disqus_shortname: stechalon
 google_analytics: UA-168921521-1
 enableTags: true
@@ -29,14 +30,18 @@ social:
 share:
   twitter_username: stechalon
   fb_appid: 
-
+   # Navigation
 urls:
-    - text: About Me
-      url: /about/
-    # - text: My Projects
+    - text: Web Hosting
+      url: /category/webhosting
+    - text: Linux
+      url: /category/linux
+    - text: Know Me
+      url: /about
+      # - text: My Projects
     #   url: /projects/
-    - text: XML Feed
-      url: /feed.xml
+    # - text: XML Feed
+    #   url: /feed.xml
 
 url: "https://stechalon.com"
 baseurl: ""
