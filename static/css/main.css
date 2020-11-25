@@ -1,11 +1,13 @@
 body {
-  font-family: "Roboto Condensed", Arial, sans-serif;
+  font-family: "Roboto Condensed", Arial, sans-serif; 
   background: url("/static/img/subtle_dots.png");
-  line-height: 1.5em;
+  line-height: 1.7em;
+  font-style: normal;
   font-weight: 300;
   font-size: 20px;
-  color: #333333;
-  
+  /* color: #333363; */
+  color: black;
+  letter-spacing: .02em; 
 }
 
 hr {
@@ -41,12 +43,14 @@ h3 {
 }
 a, a:link, a:active {
   text-decoration: none;
-  color: #289dcc
-  /* color: #3fa757; */
+  /* color: #289dcc */
+  color: #7b2cbf; 
+  font-weight: 400;
 }
 a:hover {
   color: #bb1919;
   /* color: #B3B3B3; */
+  font-weight: 400;
   text-decoration: underline;
 }
 
@@ -75,7 +79,7 @@ div.content pre {
   color: #FFF;
   overflow-x: auto;
   font-family: Menlo, Monaco, Consolas, 'Courier New', monospace;
-   font-size: 16px;
+  font-size: 16px;
   border: none;
 }
 
