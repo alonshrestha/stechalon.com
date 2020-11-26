@@ -129,7 +129,7 @@ Know their different [hosting plans](https://nepal.agmwebhosting.com/webhosting/
 
 This company has clients from small to large business classes. Some of the popular companies like USAID, Neoteric Nepal, Broadlink, Megabytes Travel, ING Group Nepal rely on Gurkha Host service.
 
-The best part of this host is that you can migrate your reseller, web hosting hosting, and domain service to Gurkha without any cost.
+The best part of this host is that you can migrate your reseller, web hosting, and domain service to Gurkha without any cost.
 
 This means if you have web hosting and other services bought from other companies then you can easily move your service to Gurkha Host free of cost and technical support.
 
