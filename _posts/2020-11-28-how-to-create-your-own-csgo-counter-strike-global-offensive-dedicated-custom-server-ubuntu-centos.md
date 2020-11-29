@@ -234,15 +234,15 @@ Now there are two ways you can connect and join the server.
 ![Downloading and Installing SteamCMD In Linux | sTechalon.com](/static/img/posts/how-to-create-your-own-csgo-counter-strike-global-offensive-dedicated-custom-server-ubuntu-centos/8.webp)
 Come back to the dashboard and open the console using *“ **~** ”* keyword and type *“**connect < your-ip-address >**”*.
 
-![Downloading and Installing SteamCMD In Linux | sTechalon.com](/static/img/posts/how-to-create-your-own-csgo-counter-strike-global-offensive-dedicated-custom-server-ubuntu-centos/9.PNG)
+![Downloading and Installing SteamCMD In Linux | sTechalon.com](/static/img/posts/how-to-create-your-own-csgo-counter-strike-global-offensive-dedicated-custom-server-ubuntu-centos/9.png)<br>
 **Second**, adding your server IP address to your favorite list. For that go to *Community Server Browser*.
 
-![Downloading and Installing SteamCMD In Linux | sTechalon.com](/static/img/posts/how-to-create-your-own-csgo-counter-strike-global-offensive-dedicated-custom-server-ubuntu-centos/10.webp)
+![Downloading and Installing SteamCMD In Linux | sTechalon.com](/static/img/posts/how-to-create-your-own-csgo-counter-strike-global-offensive-dedicated-custom-server-ubuntu-centos/10.webp)<br>
 Click on favourite tab.
 
-![Downloading and Installing SteamCMD In Linux | sTechalon.com](/static/img/posts/how-to-create-your-own-csgo-counter-strike-global-offensive-dedicated-custom-server-ubuntu-centos/11.PNG)
+![Downloading and Installing SteamCMD In Linux | sTechalon.com](/static/img/posts/how-to-create-your-own-csgo-counter-strike-global-offensive-dedicated-custom-server-ubuntu-centos/11.png)<br>
 Add your server IP and connect it. 
-![Downloading and Installing SteamCMD In Linux | sTechalon.com](/static/img/posts/how-to-create-your-own-csgo-counter-strike-global-offensive-dedicated-custom-server-ubuntu-centos/12.PNG)
+![Downloading and Installing SteamCMD In Linux | sTechalon.com](/static/img/posts/how-to-create-your-own-csgo-counter-strike-global-offensive-dedicated-custom-server-ubuntu-centos/12.png)
 
 ## Run Counter-Strike:Global Offensive (CS:GO) Server In Background
 Usually, when you run the command and host the game in a normal session, your game will be disconnected or stopped when you log out from the server.
@@ -320,7 +320,7 @@ To save this file press *“esc”* and *“ :wq!”*
 
 Refresh your favorite list and check the Hostname. You will see the changes as mine as shown below.
 
-![Downloading and Installing SteamCMD In Linux | sTechalon.com](/static/img/posts/how-to-create-your-own-csgo-counter-strike-global-offensive-dedicated-custom-server-ubuntu-centos/14.PNG)<br>
+![Downloading and Installing SteamCMD In Linux | sTechalon.com](/static/img/posts/how-to-create-your-own-csgo-counter-strike-global-offensive-dedicated-custom-server-ubuntu-centos/14.png)<br>
 You can customize your game with different variables. To know more about this visit  CS:GO advanced configuration article. I am sure this article will help you a lot to create a custom game mode.
 
 ## Change Counter-Strike:Global Offensive (CS:GO) Tick Rate
