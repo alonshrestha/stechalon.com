@@ -96,7 +96,7 @@ su - steam
 mkdir ~ / Steam && cd ~ / Steam
 {%endhighlight%}
 
-Downloading and Installing SteamCMD.
+### Downloading and Installing SteamCMD.
 
 **Step 4**: Download the latest version of SteamCMD.
 {%highlight ruby%}
@@ -309,7 +309,7 @@ In this section, you will learn to change your server hostname and password. Thi
 
 Edit **autoexec.cfg** file and add your hostname and password that you want. Type:
 
-{%highlight ruby%} 
+{%highlight ruby%}
 vim csgo-ds/csgo/cfg/autoexec.cfg
 {%endhighlight%}
 
@@ -321,10 +321,10 @@ To save this file press *“esc”* and *“ :wq!”*
 Refresh your favorite list and check the Hostname. You will see the changes as mine as shown below.
 
 ![Downloading and Installing SteamCMD In Linux | sTechalon.com](/static/img/posts/how-to-create-your-own-csgo-counter-strike-global-offensive-dedicated-custom-server-ubuntu-centos/14.png)<br>
-You can customize your game with different variables. To know more about this visit  CS:GO advanced configuration article. I am sure this article will help you a lot to create a custom game mode.
+You can customize your game with different variables. To know more about this visit  [CS:GO advanced configuration](https://developer.valvesoftware.com/wiki/Counter-Strike:_Global_Offensive_Dedicated_Servers){:target='_blank'}{:rel='nofollow'} article. I am sure this article will help you a lot to create a custom game mode.
 
 ## Change Counter-Strike:Global Offensive (CS:GO) Tick Rate
-Tick rate collects the information of incoming player data and events which help to calculate the performance of the game and send data to players. This might be helpful for the player in better game mode. You can get more knowledge about the tick rates [here](https://win.gg/news/4379/explaining-tick-rates-in-fps-games-difference-between-64-and-128-tick){:targer="_blank"}{:rel="nofollow"}. 
+Tick rate collects the information of incoming player data and events which help to calculate the performance of the game and send data to players. This might be helpful for the player in better game performance. You can get more knowledge about the tick rates [here](https://win.gg/news/4379/explaining-tick-rates-in-fps-games-difference-between-64-and-128-tick){:targer="_blank"}{:rel="nofollow"}. 
 
 It is easy to change the tick rate of your game. Simply, add some command in the autoexec.cfg file.
 
@@ -350,7 +350,7 @@ There are some important things that you should know for maintaining your dedica
 Usually, CS:GO provides updates every week or in a month. In this case, your game won't be hosted without updating it on the server. To update the game run the command from above **steps** 6 to 9.
 
 ### Create Backup Image Of Server
-This is very important. You never know what is going to be next so to be on the safe side, always take a backup image of your VPS server. So, whenever your server gets crashed you can re-lunch the server from the backup images.
+This is very important. You never know what is going to be next so to be on the safe side, always take a backup image of your VPS server. So, whenever your server gets crashed you can [re-lunch the previous state server](https://stechalon.com/install-systemback-restore-previous-state-ubuntu-linux){:target='_blank'} from the backup images without data loss.
 
 This helped me a lot while changing the configuration of the game. Even though I crash the system I was able to re-launch the system  
 
