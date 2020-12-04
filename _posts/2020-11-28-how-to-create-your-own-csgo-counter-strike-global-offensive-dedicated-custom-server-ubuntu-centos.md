@@ -47,12 +47,12 @@ Now, we will need a VPS(Virtual Private Server) to deploy CS:GO. For that, I hav
 ## Affordable VPS Hosting For Counter-Strike: Global Offensive (CS:GO) 
 The below mention hosting price is in special offer. This offer is only available for certain period of time.
 
-### [Hostinger: $8.95 / Month (55% OFF)](https://www.hostg.xyz/SH54u){:target='_blank'}{:rel='nofollow'}
+### [Hostinger: $8.95 / Month (55% OFF)](https://www.hostg.xyz/aff_c?offer_id=6&aff_id=57845&url_id=19){:target='_blank'}{:rel='nofollow'}
 - RAM: 2 GB
 - Disk Space: 40 GB
 - Bandwidth: 2 TB
 - 30 days money back gurantee.
-- [Visit site](https://www.hostg.xyz/SH54u){:target='_blank'}{:rel='nofollow'}
+- [Visit site](https://www.hostg.xyz/aff_c?offer_id=6&aff_id=57845&url_id=19){:target='_blank'}{:rel='nofollow'}
 
 If you find the above server expensive then, remember this server will be up and running 24x7. When you are not using this server then someone else can.
 
