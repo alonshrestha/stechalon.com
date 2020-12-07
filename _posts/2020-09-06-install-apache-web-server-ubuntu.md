@@ -28,7 +28,7 @@ Before following this tutorial you should have following requirements.
 * TOC
 {:toc}
 
-# Step 1: Installing  Apache Web Server In Ubuntu
+## Step 1: Installing  Apache Web Server In Ubuntu
 Apache web server is a default software available in Ubuntu repositories. So, we can install it with a  few commands. Before installing apache first make sure your system is up to date.
 {%highlight ruby%}
 $ sudo apt update
@@ -40,7 +40,7 @@ $ sudo apt install apache2
 {%endhighlight%}
  
 
-# Step 2: Configure Your Firewall
+## Step 2: Configure Your Firewall
 
 Apache web server runs at default **port 80**. After apache is installed we need to allow port 80 for everyone from  <span style="color:#bb1919">*UFW firewall*</span>. For that, check the available ufw application list.
 {%highlight ruby%}
@@ -85,7 +85,7 @@ Apache (v6)                ALLOW       Anywhere (v6)
 
 {%endhighlight%}
 
-# Step 3: Checking Status Of Apache Web Server
+## Step 3: Checking Status Of Apache Web Server
 
 After configuring your firewall, now check the  status of the server with  <span style="color:#bb1919">*'systemctl'*</span> command.
 {%highlight ruby%}
@@ -122,7 +122,7 @@ http://localhost or https://127.0.0.1
 In my case, my machine address is  <span style="color:#bb1919">*http://3.89.36.46/*</span>. You will see the default Ubuntu 20.04 apache page which means your server is running properly. 
 
 ![How To Install Apache Web Server In Ubuntu 20.04](/static/img/posts/install-apache-web-server-ubuntu/2.PNG)
-# Step 4: Configuring Your Apache Web Server
+## Step 4: Configuring Your Apache Web Server
 It is important to know how to control your server system. Controlling the server system means <span style="color:#bb1919">*stop, start*</span> and <span style="color:#bb1919">*restart*</span> your server. 
 
 **Start** apache web server.
