@@ -28,6 +28,8 @@ In this article I will be teaching you about Systemback, its uses and how to use
 ## What is Systemback?
 Systemback is an open-source application released under the terms of GPLv3 license whose main function is to backup and restore the system. It is easy to create live backup images of your system with user saved configurations.
 
+<a href="https://www.hostg.xyz/aff_c?offer_id=6&aff_id=57845" target="_blank" rel="nofollow"><img src="https://uce3344d637765d3ffa28ac9115f.previews.dropboxusercontent.com/p/thumb/ABA2syg2B2bf9RxxY-ugSbeME9sZnj4NRmxak6-5IXYekjqtNbLv6H3vq42N7z3txV-Zg-SNSeC4J7smxzP1EsfFHc9Z9NKDS5VfcPC0CUU7uHw4AiHclwjdxkoom2Tvq_kklxjlrdZPBPyQ_t205ueUNbG7jG27zwcZLdxNvm9evfaxuoYwLu6mQuN0gJJUefKYrPj1wfmuYwhL_4JW46j1s_58u_s-6kzoFNq0bf-qaa9ErAHkR-VGCbZMakvtIxoSv6twC_NJRr6pEzL6sbpkoGKioDPpPUBAzEy2YzcR8g7a8FvIG_VYJBCHnKH1o3Y8ndQZymY5fj3v-6Gy-MNDzbPZRik9QS_b9lHHEh29rQMt5dz3OaiTMaB6gk3CRpo/p.png?fv_content=true&size_mode=5" width="728" height="90" border="0" /><img src="https://www.hostg.xyz/aff_i?offer_id=6&aff_id=57845" width="0" height="0" style="position:absolute;visibility:hidden;" border="0" />
+
 ## Advantages Of Using Systemback
 - Backup system with users configuration files.
 - System copying, system installation and Live system creation.
@@ -35,8 +37,6 @@ Systemback is an open-source application released under the terms of GPLv3 licen
 - Convert backup image into bootable ISO file.
 - Upgrading system and software.
 - Easy installation and fast recovery.
-
-<a href="https://www.hostg.xyz/aff_c?offer_id=6&aff_id=57845&file_id=1058" target="_blank"><img src="https://media.go2speed.org/brand/files/hostinger/6/20190913194650-en-728x90.png" width="728" height="90" border="0" /></a><img src="https://www.hostg.xyz/aff_i?offer_id=6&file_id=1058&aff_id=57845" width="0" height="0" style="position:absolute;visibility:hidden;" border="0" />
 
 ## Install Systemback in Ubuntu 16.04
 Systemback can be installed in Ubuntu 16.04 and lower version from PPA by running the following command below.
@@ -54,6 +54,7 @@ sudo apt-get install systemback
 Systemback is not in the supported list but its binary files are compatible with Ubuntu 18.04, 19.10 and 20.04. 
 
 We can install systemback in Ubuntu 20.04, 19.10, 18.04 using Ubuntu 16.04 PPA.   
+
 
 ## Install Systemback in Ubuntu 20.04/19.10/18.04
 First remove the PPA.
