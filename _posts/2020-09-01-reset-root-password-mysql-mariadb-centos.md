@@ -1,8 +1,9 @@
 ---
 layout: post
-title: "Reset MySQL/MariaDB Root Password In CentOS 8"
+title: "How To Reset MySQL Or MariaDB Root Password"
+heading: "How To Reset MySQL Or MariaDB Root Password"
 categories: [linux, backup-restore]
-image: reset-root-password-mysql-mariadb-centos/1.png
+image: reset-root-password-mysql-mariadb-centos/1.webp
 tags:
 - Linux
 - Ubuntu
@@ -11,60 +12,81 @@ tags:
 - Mysql
 - MariaDB
 - reset-passsword
-description: "Forgot mysql/mariadb root password?  Rest, change or recover the root password of mysql using skip grant tables command in centOS Linux."
+description: "Reset MySQL or MariaDB root password in linux centos and ubuntu. Change password using mysql safe mode"
 ---
-[MariaDB](https://mariadb.org/){:target="_blank"}{:rel="nofollow"} root user has full privileges to access every data in the databases. Being human, users sometimes make mistakes or forget the root password. Using different [types of command](https://stechalon.com/linux-bash-shell-command-types){:target="_blank"} will rest your mysql root passowrd without any [data loss](https://stechalon.com/install-systemback-restore-previous-state-ubuntu-linux){:target="_blank"}. In this article, you will learn how to reset the root password of MariaDB on centOS 8 following the steps below.
+MariaDB root user has full privilege to access every data in the databases.
 
-{% include note.html content= "You must have root access on the server to reset mariadb root password." %}
+Being a human, we sometimes make a mistake or forget the root password. And that is normal, not to worry &#128513;.
 
-> **Table Of Content**
+You can still gain access to your database without losing your data. In this article, you will learn how to reset MariaDB or MySQL root password.
 
-* TOC
-{:toc}
+## Prerequisites
+- You must have **sudo** user access on MySQL or MariaDB running Linux machine.
 
-# Step 1: Stop MariaDB Server
-First you need to down your mariaDB server. For that use the command  <span style="color:#bb1919">*'sudo systemctl stop mariadb'*</span>.  
+## Identify Your Database Server Version
+Before we move on to recovering the password you should know which version of MySQL or MariaDB you are running on your machine.
+
+Depending on the version of your server you need to run the command. To check the version run the following command.
 
 {%highlight ruby%}
-
-[alon@localhost ~]$ sudo systemctl stop mariadb
-
+$ mysql --version
 {%endhighlight%}
 
-# Step 2: Start MariaDB Server with Safe Mode
-Start mariadb server with safe mode using <span style="color:#bb1919">*'mysqld_safe'*</span>. For that use the command  <span style="color:#bb1919">*'sudo mysqld_safe --skip-grant-tables &'*</span>.
+According to your version, you will see a similar output as shown below.
+
+MySQL Output
 
 {%highlight ruby%}
-[alon@localhost ~]$ sudo mysqld_safe --skip-grant-tables &
+mysql  Ver 14.14 Distrib 5.7.22, for Linux (x86_64) using  EditLine wrapper
 {%endhighlight%}
 
-After entering the above command, if you got `hang` as shown below, press `enter`.  This will redirect you again to command line.
+MariaDB Output
+{%highlight ruby%}
+mysql  Ver 15.1 Distrib 10.1.33-MariaDB, for debian-linux-gnu (x86_64) using readline 5.2
+{%endhighlight%}
+
+**Note:** *Make sure you note your running database server version. You need this later.*
+
+## Step 1: Stop Your MySQL / MariaDB Server
+First, you need to stop your running server so that you can access your database manually.
+
+Stop MySQL Server
+{%highlight ruby%}
+$ sudo systemctl stop mysql
+{%endhighlight%}
+
+Stop MariaDB Server
+{%highlight ruby%}
+$ sudo systemctl stop mariadb
+{%endhighlight%}
+
+## Step 2: Restart Your MariaDB / MySQL Server In Safe Mode
+Start your database server without loading the grant tables. This means you are going to start the server without loading information about user privileges.
+
+This will allow you to access your database through a root user with no password.
 
 {%highlight ruby%}
+$ sudo mysqld_safe --skip-grant-tables --skip-networking &
+{%endhighlight%}
 
-[root@localhost alon]# mysqld_safe --skip-grant-tables &
-[1] 1892
-[root@localhost alon]# 191116 17:21:13 mysqld_safe Logging to '/var/log/mariadb/mariadb.log'.
+After entering the above command, your terminal may look similar as shown below. Press enter and you will be redirected to the command line.
+
+{%highlight ruby%}
+91116 17:21:13 mysqld_safe Logging to '/var/log/mariadb/mariadb.log'.
 191116 17:21:13 mysqld_safe Starting mysqld daemon with databases from /var/lib/mysql
-
 {%endhighlight%}
 
-{% include tip.html content= "--skip-grant-tables  runs the server without grants, which allows you to enter into the server without password and it is possible for user from other networks to connect to the server. " %}
-# Step 3: Login to MariaDB Server as Root
-Now, you will be able  to login in mariaDB as  <span style="color:#bb1919">*'root'*</span> user. For that use the command <span style="color:#bb1919">*'mysql -u root'*</span>.
+**Note:** *'--skip-grant-tables' run the server without grants, which allows you to enter into the server without a password and it is possible for users from other networks to connect to the server. Try to skip the network while you do this operation.*
 
+## Step 3: Login MariaDB / MySQL Server as Root
+Now, you will be able to login into the server as a root user.
 {%highlight ruby%}
-
-[alon@localhost ~]$ mysql -u root
-
+$ mysql -u root
 {%endhighlight%}
 
-You will be login to the mariadb server.  
-
+In my case, I am using MariaDB and you can see that I am able to login in to the server as shown below.
 {%highlight ruby%}
-
-[alon@localhost ~]$ mysql -u root
-Welcome to the MariaDB monitor.  Commands end with ; or \g.
+Welcome to the MariaDB monitor.  Commands end with; or \g.
 Your MariaDB connection id is 2
 Server version: 5.5.60-MariaDB MariaDB Server
 
@@ -73,76 +95,86 @@ Copyright (c) 2000, 2018, Oracle, MariaDB Corporation Ab and others.
 Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
 
 MariaDB [(none)]>
-
 {%endhighlight%}
 
-# Step 4: Change MariaDB Root Password
-First change the database. For that use the command <span style="color:#bb1919">*'use mysql;'*</span>.
+## Step 4: Change MariaDB / MySQL Root Password
+First, reload the database server grant tables using the *'FLUSH PRIVILEGES'* command.
 
 {%highlight ruby%}
-MariaDB [(none)]> use mysql;
+> FLUSH PRIVILEGES;
 {%endhighlight%}
 
-After using the mysql database, update the password of root user. For that use the command  <span style="color:#bb1919">*'update mysql.user SET PASSWORD=PASSWORD("StrongPassword") WHERE USER='root';'*</span>.
-{%highlight ruby%}
-MariaDB [mysql]> update user SET PASSWORD=PASSWORD("NewStrongPassword") WHERE USER='root';
-{%endhighlight%}
-Flush Privileges using command <span style="color:#bb1919">*'flush privileges;'*</span>.
-{%highlight ruby%}
-MariaDB [mysql]> flush privileges;
-{%endhighlight%}
-Exit from mariadb.
-{%highlight ruby%}
-MariaDB [mysql]> exit
-Bye
-{%endhighlight%}
-
-# Step 5: Kill mysql and mysqld_safe processor
-Find the pid value of <span style="color:#bb1919">*'mysql'*</span> and <span style="color:#bb1919">*'mysqld_safe'*</span> processor using command <span style="color:#bb1919">*'ps aux | grep -i "mysqld_safe" '*</span> and <span style="color:#bb1919">*'ps aux | grep -i "mysql" '*</span>.
+Follow the below command to change the password of the root user if you have *MySQL 5.7.6* and newer or *MariaDB 10.1.20* and newer.
 
 {%highlight ruby%}
-[alon@localhost ~]$ ps aux | grep -i "mysqld_safe"
+> ALTER USER 'root'@'localhost' IDENTIFIED BY 'NEW_PASSWORD';
+> FLUSH PRIVILEGES;
 {%endhighlight%}
+
+**Note:** *Do not forget to replace your password with NEW_PASSWORD in above command.*
+
+If the *'ALTER USER'* command does not work for you then, try modifying the user table directly as shown below.
 
 {%highlight ruby%}
-[alon@localhost ~]$ ps aux | grep -i "mysql"
+> UPDATE mysql.user SET authentication_string = PASSWORD('NEW_PASSWORD')WHERE User = 'root' AND Host = 'localhost';
 {%endhighlight%}
 
-Now kill the processor using command `kill -9`. In my case `2062` is the PID of mysqld_safe and `1892` is the PID of mysql.
-{%highlight ruby%}
-[alon@localhost ~]$ sudo kill -9 2062
-[1]+  Killed                  sudo mysqld_safe --skip-grant-tables
-
-[alon@localhost ~]$ sudo kill -9 1892
-{%endhighlight%}
-
-# Step 6: Restart MariaDB
-Use the command <span style="color:#bb1919">*'sudo systemctl stop mariadb'*</span> and <span style="color:#bb1919">*'sudo systemctl stop mariadb'*</span>
+Remember to reload the grant tables after running the above command.
 
 {%highlight ruby%}
-[alon@localhost ~]$ sudo systemctl stop mariadb
+> FLUSH PRIVILEGES;
 {%endhighlight%}
+
+For *MySQL 5.7.5* and older or *MariaDB 10.1.20* and older:
+
 {%highlight ruby%}
-[alon@localhost ~]$ sudo systemctl start mariadb
+> SET PASSWORD FOR 'root'@'localhost' = PASSWORD('NEW_PASSWORD');
+> FLUSH PRIVILEGES;
 {%endhighlight%}
 
-# Step 7: Login to MariaDB 
-Use Command <span style="color:#bb1919">*'mysql -u root -p'*</span>.
+If everything was done in the process, you will see the below output.
+
 {%highlight ruby%}
-[alon@localhost ~]$ mysql -u root -p
-
-Enter password:
-Welcome to the MariaDB monitor.  Commands end with ; or \g.
-Your MariaDB connection id is 8
-Server version: 5.5.60-MariaDB MariaDB Server
-
-Copyright (c) 2000, 2018, Oracle, MariaDB Corporation Ab and others.
-
-Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
-
-MariaDB [(none)]> exit
-Bye
-
+Query OK, 0 rows affected (0.00 sec)
 {%endhighlight%}
 
-{% include summaryCallout.html heading= "Summary" content= " Hope this article helped you to reset your mysql/mariadb passowrd in centOS. Comment down below if you need any help." %}
+You have changed the password. Now, you can stop the manual run database server and restart it again.
+
+## Step 5: Kill mysqld and mariadb PID
+Stop the database server that was run manually in step 2. To do this search the process ID or PID of MySQL and MariaDB and kill it.
+
+You can kill the process in different ways for example: using *'ps aux'* command to find the process ID or kill directly if you know the path of the .pid file of the process. I will suggest you use
+
+For MySQL
+
+{%highlight ruby%}
+$ sudo kill `cat /var/run/mysqld/mysqld.pid`
+{%endhighlight%}
+
+For MariaDB
+
+{%highlight ruby%}
+$ sudo kill `/var/run/mariadb/mariadb.pid`
+{%endhighlight%}
+
+## Step 6: Restart Your MariaDB / MySQL Server Normally
+For MySQL
+
+{%highlight ruby%}
+$ sudo systemctl start mysql
+{%endhighlight%}
+
+For MariaDB
+
+{%highlight ruby%}
+$ sudo systemctl start mariadb
+{%endhighlight%}
+
+Verify your password
+
+{%highlight ruby%}
+$ mysql -u root -p
+{%endhighlight%}
+
+## Conclusion
+I hope this article helped you to reset your MySQL or MariaDB root password. Make your database secure using a strong password and try to take a backup of your database daily using the *'mysqldump'* command.
