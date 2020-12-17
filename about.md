@@ -1,9 +1,9 @@
 ---
 layout: page
 title: About
-noindex:
+robots: noindex
 permalink: /about/
-description: A guy from Nepal sharing his experience on Tech. Articles and tutorials about System and Network, SEO, Social Media, Web Hosting, Servers, and others.  
+description: A guy from Nepal sharing his experience on Tech.
 ---
 
 A guy from Nepal sharing his experience on Tech. Articles and tutorials about System and Network, SEO, Social Media, Web Hosting, Servers, and others.
