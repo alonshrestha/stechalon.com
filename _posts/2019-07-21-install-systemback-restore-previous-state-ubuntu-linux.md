@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "How To Install Systemback In Ubuntu 20.04 And 18.04"
-heading: "Install Systemback In Ubuntu 20.04/19.10/18.04  And Restore To Previous State"
+title:  "How To Install Systemback On Ubuntu 20.04 And 18.04"
+heading: "Install Systemback On Ubuntu 20.04/19.10/18.04  And Restore To Previous State"
 image: install-systemback-restore-previous-state-ubuntu-linux/10.webp
 categories: [linux, backup-restore]
 tags: 
@@ -10,7 +10,7 @@ tags:
 - backup
 - restore
 - system-image
-description: "Install Systemback in Ubuntu 20.04 and restore your system to the previous state creating a .sblive image backup of user configuration without any data loss."
+description: "Install Systemback Ubuntu 20.04 and restore your system to the previous state creating a .sblive image backup of user configuration without any data loss."
 ---
 Upgrading the system without any data loss is one of the most risky tasks that I feel to do. Specially, working on open source operating systems like Linux. 
 
@@ -28,7 +28,7 @@ In this article I will be teaching you about Systemback, its uses and how to use
 ## What is Systemback?
 Systemback is an open-source application released under the terms of GPLv3 license whose main function is to backup and restore the system. It is easy to create live backup images of your system with user saved configurations.
 
-<a href="https://www.hostg.xyz/aff_c?offer_id=6&aff_id=57845" target="_blank" rel="nofollow"><img src="static/img/posts/affliate/affiliate-hostinger.png" width="728" height="90" border="0" /><img src="https://www.hostg.xyz/aff_i?offer_id=6&aff_id=57845" width="0" height="0" style="position:absolute;visibility:hidden;" border="0" />
+<!-- <a href="https://www.hostg.xyz/aff_c?offer_id=6&aff_id=57845" target="_blank" rel="nofollow"><img src="static/img/posts/affliate/affiliate-hostinger.png" width="728" height="90" border="0" /><img src="https://www.hostg.xyz/aff_i?offer_id=6&aff_id=57845" width="0" height="0" style="position:absolute;visibility:hidden;" border="0" /> -->
 
 ## Advantages Of Using Systemback
 - Backup system with users configuration files.
@@ -38,8 +38,8 @@ Systemback is an open-source application released under the terms of GPLv3 licen
 - Upgrading system and software.
 - Easy installation and fast recovery.
 
-## Install Systemback in Ubuntu 16.04
-Systemback can be installed in Ubuntu 16.04 and lower version from PPA by running the following command below.
+## Install Systemback on Ubuntu 16.04
+Systemback can be installed on Ubuntu 16.04 and lower version from PPA by running the following command below.
 {%highlight ruby%}
 sudo add-apt-repository ppa:nemh/systemback
 {%endhighlight%}
@@ -53,10 +53,10 @@ sudo apt-get install systemback
 
 Systemback is not in the supported list but its binary files are compatible with Ubuntu 18.04, 19.10 and 20.04. 
 
-We can install systemback in Ubuntu 20.04, 19.10, 18.04 using Ubuntu 16.04 PPA.   
+We can install systemback on Ubuntu 20.04, 19.10, 18.04 using Ubuntu 16.04 PPA.   
 
 
-## Install Systemback in Ubuntu 20.04/19.10/18.04
+## Install Systemback on Ubuntu 20.04/19.10/18.04
 First remove the PPA.
 
 {%highlight ruby%}
@@ -81,7 +81,7 @@ Add the PPA running below command.
 sudo add-apt-repository "deb http://ppa.launchpad.net/nemh/systemback/ubuntu xenial main"
 {%endhighlight%}
 
-Finally, updated the list and install systemback in Ubuntu 20.04, 19.10, 18.04
+Finally, updated the list and install systemback on Ubuntu 20.04, 19.10, 18.04
 {%highlight ruby%}
 sudo apt update
 {%endhighlight%}
@@ -96,7 +96,7 @@ After installation, open the application.
 
 Enter your user password and press OK. 
 
-![SystemBack In Ubuntu | sTechalon.com](/static/img/posts/install-systemback-restore-previous-state-ubuntu-linux/3.PNG)<br>
+![SystemBack On Ubuntu | sTechalon.com](/static/img/posts/install-systemback-restore-previous-state-ubuntu-linux/3.PNG)<br>
 Here, you can see many options in the function menu. Click on *"Live system create"*.
 
 ![ Restore Linux To Previous State With System Back| sTechalon.com](/static/img/posts/install-systemback-restore-previous-state-ubuntu-linux/4.PNG)
@@ -142,7 +142,7 @@ I hope you have enjoyed this tutorial. In case of problems with your system you 
 
 Unfortunately, systemback does not provide any update and does not exist in the support list of the latest version of Ubuntu. If you have more queries on this you can [check here](https://answers.launchpad.net/systemback){:target="_blank"}{:rel="nofollow"}.
 
-We have installed the systemback application in Ubuntu 20.04, 19.10, and 18.04 using PPA of Ubuntu 16.04 and [Open PGP key](https://launchpad.net/~sonicwalker){:target="_blank"}{:rel="nofollow"}. At the end, we created .sblive and wrote the system in a usb flash drive. We were also able to convert the .sblive file to bootable iso file.
+We have installed the systemback application on Ubuntu 20.04, 19.10, and 18.04 using PPA of Ubuntu 16.04 and [Open PGP key](https://launchpad.net/~sonicwalker){:target="_blank"}{:rel="nofollow"}. At the end, we created .sblive and wrote the system in a usb flash drive. We were also able to convert the .sblive file to bootable iso file.
 
 **Disclaimer**:
 - *Some links used in this article are affiliated. This means if you do certain actions through that link I might earn some commission.*
