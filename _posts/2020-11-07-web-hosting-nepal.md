@@ -93,7 +93,7 @@ I prefer you to choose [Prabhu Host](https://www.prabhuhost.com/aff.php?aff=191)
 From the last couple of years, Prabhu Host has leveled up their business providing great services to its customers. Different e-commerce brands like Home Sansar, Bechdeu.com, Electromadu, etc of Nepal rely on Prabhu Host services.
 
 
-<a href="https://www.prabhuhost.com/aff.php?aff=191&pid=61" target="_blank"><img src="https://4.bp.blogspot.com/-Tr4yWbwPT5c/Xo7nPPdPxhI/AAAAAAAARsk/Bcmp9Yx14rYibKAWNlhWokLB8zsDYBCGwCK4BGAYYCw/s1600/350by350.gif" width="350" height="350" border="0"></a> <a href="https://www.prabhuhost.com/aff.php?aff=191&pid=42" target="_blank"><img src="https://3.bp.blogspot.com/-1ZUMHH76Upw/XpwYjbz3CvI/AAAAAAAAR74/PGpYXtu02qM_y0fsy7LjTZ28Qs3J1K33gCK4BGAYYCw/s320/Cloud.png" width="350" height="350" border="0"></a>
+<a href="https://www.prabhuhost.com/aff.php?aff=191&pid=61" target="_blank" rel="nofollow"><img src="https://4.bp.blogspot.com/-Tr4yWbwPT5c/Xo7nPPdPxhI/AAAAAAAARsk/Bcmp9Yx14rYibKAWNlhWokLB8zsDYBCGwCK4BGAYYCw/s1600/350by350.gif" width="350" height="350" border="0"></a> <a href="https://www.prabhuhost.com/aff.php?aff=191&pid=42" target="_blank" rel="nofollow"><img src="https://3.bp.blogspot.com/-1ZUMHH76Upw/XpwYjbz3CvI/AAAAAAAAR74/PGpYXtu02qM_y0fsy7LjTZ28Qs3J1K33gCK4BGAYYCw/s320/Cloud.png" width="350" height="350" border="0"></a>
 
 
 Like other hosts, they also provide global hosting services such as Digital Ocean, AWS, GoogleCloud, etc.
