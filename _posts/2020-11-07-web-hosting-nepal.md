@@ -17,7 +17,7 @@ tags:
 - cusotm-domain
 - github-pages
 - free-hosting
-description: "Best top 5 web hosting in Nepal. Himalayan, Prabhu, AGM, Gurkha, eHostingServer. Free web hosting sites and domain free  for life time. "
+description: "Best top 5 web hosting in Nepal. Himalayan, Prabhu, AGM, Gurkha, eHostingServer. Free web hosting sites and domain free  for life time."
 ---
 So, you want to host your website? I guess it's yes because you are on this page.
 
@@ -42,7 +42,7 @@ These terms are nothing but just a hosting service categorized for you according
 Let me explain these terms in short for you. If you already know what these terms mean then you can [skip this part](https://stechalon.com/web-hosting-nepal#reseller-hosting).
 
 ### Shared Hosting (For Beginners)
-In shared hosting single server resources are being shared with multiple users. The individual user hosting their website on this server has no idea about other users hosting their websites on the same server. Individual customers will have a limited number of resources.
+In shared hosting, single server resources are being shared with multiple users. The individual user hosting their website on this server has no idea about other users hosting their websites on the same server. Individual customers will have a limited number of resources.
 
 ### VPS: Virtual Private Server (For Professional)
 VPS is still similar to shared hosting with optimized performance. In this case, your website shares a server with other websites. This kind of server is partitioned into different virtualized servers. Simply to understand this kind of server is rented out and operates as independent servers from one another.
