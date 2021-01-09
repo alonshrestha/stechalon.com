@@ -1,7 +1,6 @@
 ---
 layout: page
 title: About
-robots: noindex
 permalink: /about/
 description: A guy from Nepal sharing his experience on Tech.
 ---
