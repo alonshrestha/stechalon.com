@@ -16,7 +16,7 @@ description: "Best WordPress hosting in Kathmandu Nepal. Prabhu Host, Himalayan 
 
 If you choose a good hosting company then it takes less than a minute to install WordPress and publish your first article.
  
-Search on google *“web hosting in Nepal”* and you will find numbers of web hosting companies listed. Choosing one of them according to your requirements is not that difficult as you think.
+Well, if you search on google *“wordpress hosting in Nepal”* and you will find numbers of web hosting companies listed. Choosing one of them according to your requirements is not that difficult as you think.
 
 In this article, I will help you to get the best and cheapest WordPress hosting according to your needs. 
 
@@ -178,7 +178,7 @@ It is an Indian based web hosting company targeted at multiple countries’ user
 
 I have bought multiple domains and hosting plans from the AGM web host. 
 
-I had some issues with my website and was satisfied with their technical support. Though my issue was fixed, the plan I chose was not flexible for me so they returned my money.
+When experiencing some issues in my website, their technical support helped me fix them. I was satisfied with their support. Though my issue was fixed, the plan I chose was not flexible for me so they returned my money.
 
 I suggest you choose this plan if you are a beginner WordPress blogger. You can upgrade your plan later without any difficulty.
 
