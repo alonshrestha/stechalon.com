@@ -17,7 +17,7 @@ Ready for gaming? Yeah! haha &#128526;. Playing games with your friends on a per
 
 Over two months ago I had built my personal server for Counter-Strike: Global Offensive (CS:GO) to play with my friends. Trust me it was far more fun than expected as well as helped me to earn some money. How? I will let you know shortly.
 
-However, if you are new to this and have no technical knowledge I will suggest you go deep in the article else you can directly jump to the [setup section](http://localhost:4000/how-to-create-your-own-csgo-counter-strike-global-offensive-dedicated-custom-server-ubuntu-centos#setup-counter-strike-global-offensive-csgo-in-ubuntucentos-server). 
+However, if you are new to this and have no technical knowledge I will suggest you go deep in the article else you can directly jump to the [setup section](http://stechalon.com/how-to-create-your-own-csgo-counter-strike-global-offensive-dedicated-custom-server-ubuntu-centos#setup-counter-strike-global-offensive-csgo-in-ubuntucentos-server). 
 
 Steam allows you to setup a custom server changing different settings like tick rate, number of players, base map, game rule, etc. Also, you can download and install free custom skins for your weapons. It's like you are the admin and you can change any function as you want.
 
@@ -52,7 +52,7 @@ The below mention hosting price is in special offer. This offer is only availabl
 - Disk Space: 40 GB
 - Bandwidth: 2 TB
 - 30 days money back gurantee.
-- [Visit site](https://www.hostg.xyz/aff_c?offer_id=6&aff_id=57845&url_id=19){:target='_blank'}{:rel='nofollow'}
+- Check: [If the offer is still valid.](https://www.hostg.xyz/aff_c?offer_id=6&aff_id=57845&url_id=19){:target='_blank'}{:rel='nofollow'}
 
 If you find the above server expensive then, remember this server will be up and running 24x7. When you are not using this server then someone else can.
 

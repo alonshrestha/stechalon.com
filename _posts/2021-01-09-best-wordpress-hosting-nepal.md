@@ -134,7 +134,7 @@ I highly recommend you to choose Prabhu host if you want to go as a professional
 Check their [best WordPress hosting plan](https://www.prabhuhost.com/wordpress-hosting/){:target="_blank"}{:rel="nofollow"}. 
 
 ## Himalayan Host
-![Best WordPress Hosting In Nepal | sTechalon.com](/static/img/posts/web-hosting-nepal/h1.webp)
+![Himalayan Best WordPress Hosting In Nepal | sTechalon.com](/static/img/posts/web-hosting-nepal/h1.webp)
 
 - One-click WordPress installation
 - 3 GB SSD Storage
@@ -161,7 +161,7 @@ Select this plan with no doubt if you are confused regarding hosting companies i
 Check their [best hosting plan](https://www.himalayanhost.com/store/web-hosting-nepal){:target="_blank"}{:rel="nofollow"}.
 
 ## AGM Web Host
-![Best WordPress Hosting In Nepal | sTechalon.com](/static/img/posts/web-hosting-nepal/h10.webp)
+![AGM Best WordPress Hosting In Nepal | sTechalon.com](/static/img/posts/web-hosting-nepal/h10.webp)
 - One-click WordPress installation
 - 4 GB SSD Storage
 - 40 GB Bandwidth
