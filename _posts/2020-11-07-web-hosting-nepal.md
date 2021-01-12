@@ -17,7 +17,7 @@ tags:
 - cusotm-domain
 - github-pages
 - free-hosting
-description: "Best top 5 web hosting in Nepal. Himalayan, Prabhu, AGM, Gurkha, eHostingServer. Free web hosting sites and domain free  for life time."
+description: "Best top 5 web hosting in Nepal. Himalayan, Prabhu, AGM, Gurkha, eHostingServer. Free web hosting sites and domain free  for life tim"
 ---
 So, you want to host your website? I guess it's yes because you are on this page.
 
@@ -199,88 +199,58 @@ Having that said, there are really great and free web hosting service providers 
 - **[000Webhosting](https://www.000webhost.com/cpanel-login){:target="_blank"}{:rel="nofollow"}** (Popular)
 
 ## 1. Infinity Free
-**Disk space: Unlimited**
-
-**Domain hosting: Unlimited**
-
-**Monthly traffic: Unlimited Bandwidth**
-
-**Subdomains: Unlimited**
-
-**Email accounts: 10**
-
-**FTP accounts: 1**
-
-**MySQL databases: 400**
+- Disk space: Unlimited
+- Domain hosting: Unlimited
+- Monthly traffic: Unlimited Bandwidth
+- Subdomains: Unlimited
+- Email accounts: 10
+- FTP accounts: 1
+- MySQL databases: 400
 
 [Try infinity free hosting for free](https://infinityfree.net/){:target="_blank"}{:rel="nofollow"}.
 
 ## 2. Byethost
-**Disk space: 5GB**
-
-**Domain hosting: 1**
-
-**Monthly traffic: Unlimited**
-
-**Subdomains: 7**
-
-**Email accounts: 5**
-
-**FTP accounts: 1**
-
-**MySQL databases: 5**
+- Disk space: 5GB
+- Domain hosting: 1
+- Monthly traffic: Unlimited]
+- Subdomains: 7
+- Email accounts: 5
+- FTP accounts: 1
+- MySQL databases: 5
 
 [Try Byethost for free](https://ifastnet.com/portal/aff.php?aff=28131){:target="_blank"}{:rel="nofollow"}.
 
 ## 3. Googiehost
 
-**Disk space: 5GB**
-
-**Domain hosting : 1**
-
-**Monthly traffic: Unlimited**
-
-**Subdomains: 7**
-
-**Email accounts: 5**
-
-**FTP accounts: 1**
-
-**MySQL databases: 5**
+- Disk space: 5GB
+- Domain hosting : 1
+- Monthly traffic: Unlimited
+- Subdomains: 7
+- Email accounts: 5
+- FTP accounts: 1
+- MySQL databases: 5
 
 [Try Googiehost for free](https://client.googiehost.com/aff.php?aff=8390){:target="_blank"}{:rel="nofollow"}.
 
 ## 4. 000Webhosting
-**Disk space: 300MB**
-
-**Domain hosting: 1**
-
-**Monthly traffic: 3GB**
-
-**Subdomains: 0**
-
-**Email accounts: 0**
-
-**FTP accounts: 1**
-
-**MySQL databases: 1**
+- Disk space: 300MB
+- Domain hosting: 1
+- Monthly traffic: 3GB
+- Subdomains: 0
+- Email accounts: 0
+- FTP accounts: 1
+- MySQL databases: 1
 
 [Try 000webhsoting for free](https://www.000webhost.com/cpanel-login){:target="_blank"}{:rel="nofollow"}.
 
 ## 5. Free Web Hosting NoAds
-**Disk space: 1GB**
-
-**Domain hosting: 1**
-
-**Monthly traffic: 5GB**
-
-**Subdomains: 3**
-
-**Email accounts: 1**
-
-**FTP accounts: 1**
-
-**MySQL databases: 1**
+- Disk space: 1GB
+- Domain hosting: 1
+- Monthly traffic: 5GB
+- Subdomains: 3
+- Email accounts: 1
+- FTP accounts: 1
+- MySQL databases: 1
 
 [Try free web hosting noads now](https://freehostingnoads.net/){:target="_blank"}{:rel="nofollow"}.
 

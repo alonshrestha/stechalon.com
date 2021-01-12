@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Difference Between Hard Link & Symbolic Link"
+title: "Difference Between Hard Link and Symbolic Link"
 heading: "Hard Link Vs Symbolic Link In Linux"
 categories: [linux]
 image: understand-create-hard-soft-symbolic-links-linux/1.png
@@ -11,136 +11,99 @@ tags:
 - symbolic-link
 - soft-link
 - hard-link
-description: "Know the difference between hard link and symbolic link in linux. Understand how it works and hwo to create links"
+description: "Know the difference between hard link and symbolic link in linux. Understand how it works and how to create links"
 ---
-Links are assigned to file on Linux which works as alias. There are two types of links on Linux *symbolic link* also know as soft link and *hard link*. If you understand what are these links and how it works, this will make you easy to work on [Linux File System](https://stechalon.com/linux-file-system-explained){:target="_blank"}.
+Links are assigned to files on Linux which work as aliases.They are the pointer to the files and directories. There are two types of links on Linux *symbolic link* also known as soft link and *hard link*. If you understand what these links are and how it works, this will make it easy for you to work on [Linux File System](https://stechalon.com/linux-file-system-explained){:target="_blank"}.
 
-In this article we will discus about different types of links on linux and how to use it. 
-
-
-On Linux, every file has an [inode](https://en.wikipedia.org/wiki/Inode){:target="_blank"}{:rel="nofollow"}, and in the inode, administrative information is stored. Information like :
-
-* Data block where the file content is stored
-* Creation, access and modification date
-* Permission 
-* File owners 
-
-From the above information, one important information is not stored in the inode **i.e** the <span style="color:#bb1919">*name*</span> of the file. 
-
-Names are itself stored in the directory, and each filename knows which inode to address for further file information.
+Today we will understand the different types of links on linux and how we can use it. First, let us start by understanding it.   
 
 > **Table Of Content**
 
 * TOC
 {:toc}
- 
-# Hard Links
 
-Giving a name while creating a file, this name is called **Hard Link**. On Linux, single file can have multiple hard links that enable you to access the file from multiple different locations.
+## What is Inode
 
-Some of the restrictions applied to hard links are as follows:
-* Hard links cannot be created to directories
-* If the last name of the multiple aliases of the original file is removed, then the content is also removed.
-* All the hard links should be on the same device. 
+On Linux, every file and directory has an inode. Inode is known as the index node which is a data structure that describes a file or a directory in Linux/Unix File System.
 
-When you create multiple hard links of a file, there is no difference between the <span style="color:#bb1919">*first hard link*</span> and the <span style="color:#bb1919">*last hard link*</span> you have created. If the first hard link that exists is removed, then it does not impact other hard links.
+Each inode has a unique number and stores the attributes and disk block locations of the object's data (i.e file and directory).
 
-# Symbolic Link (Soft Link)
-**Symbolic Link** are also known as **soft link**. This is more flexible than hard links. The advantages and disadvantage of symbolic links are:
+Object data attributes include metadata which stores administrative information like: 
 
-## Advantages Of Soft Link
-* This link directly to the name of the file rather than inode.
-* They can link to file as well as directories on other devices.
+* Data block where the file content is stored
+* Creation, access and modification date
+* Permission
+* File owners
 
-## Disadvantage Of Soft Link
-* When the original file is removed, the symbolic link becomes invalid and does't work any longer.
+In summary, inode is an index node that stores the administrative data of the file and directory. 
 
-# Creating Link
-For creating links on Linux `ln` command is used. If you want to create a symbolic link, use the `-s` option and then specify your source and target file or directory.
+You can see from the above information, one important information is not stored in the inode i.e the name of the file.
 
-# Example for Symbolic Link (Soft Link)
+Names are themselves stored in the directory, and each filename knows which inode to address for further file information.
 
-Creating a soft link in the <span style="color:#bb1919">*current directory*</span>.
+![Difference Between Hard Link and Symbolic Link | sTechalon.com](/static/img/posts/understand-create-hard-soft-symbolic-links-linux/inode.png)
+## What is Hard Links
+
+Giving a name while creating a file, this name is called Hard Link. It is a direct reference to a file through an inode.
+
+On Linux, a single file can have multiple hard links that enable you to access the file from multiple different locations.
+
+Hard links act as a copy of the file. When you delete the original file, you will still find the data of the original file in its hard link file. 
+
+Hard links cannot be created to directories and all the hard links should be on the same device (file system).
+
+When you create multiple hard links of a file, there is no difference between the *first hard link* and the *last hard link* you have created. If the first hard link that exists is removed, then it does not impact other hard links.
+
+### How to Create Hard Links
 {% highlight ruby %}
+$ln target-file.txt link-file.txt 
+{% endhighlight %}
+Where target-file.txt is the original file and the link-file.txt if the hard link file.
 
-[alon@localhost Documents]$ ln -s /etc/
-[alon@localhost Documents]$ ls -l
-total 0
-lrwxrwxrwx. 1 alon alon 5 Oct 22 00:20 etc -> /etc/
+![Hard Link and Symbolic Link | sTechalon.com](/static/img/posts/understand-create-hard-soft-symbolic-links-linux/h2.PNG)
+In the above picture a hard link of the target-file has been created and  the content *“Hello there!!”* is the same in both target and link files. 
 
+## Symbolic Link (Soft Link)
+Symbolic link is also known as soft link. These act as a reference or a pointer to the file name.
 
+When you create a soft link of the targeted file, then the link is more likely to be a shortcut of that target file.
+
+Unlike hard link, soft link has different inode and can be linked to both files and directories. Because of different inode this can be pointed to other file systems and also in other devices remotely connected through network file system(NFS).
+
+Soft link does not access data from the original targeted file. So, when the targeted file is deleted then the link will be pointing to the file which does not exist.
+
+### How to Create Soft Links
+{% highlight ruby %}
+~$ ln -s target-dir/ softlink-dir
 {% endhighlight %}
 
-Creating soft link in <span style="color:#bb1919">*specified directory*</span>.
+![Hard Link and Symbolic Link | sTechalon.com](/static/img/posts/understand-create-hard-soft-symbolic-links-linux/h1.PNG)
+From this picture you can see a soft link has been created. *“->”* shows the pointer of the target file.
 
+## Removing Links
+Removing links on Linux is a bit of a risky task to do. You might create an error working program or lose the data.  
+
+For removing links in Linux  just use the rm command.
+
+**Note**: *Never use `-r` option after rm command. The contents of the target directory will be deleted.*
+
+Remove file link
 {% highlight ruby %}
-
-[alon@localhost Documents]$ ln -s /home/ /tmp/
-[alon@localhost tmp]$ ls -l
-total 0
-lrwxrwxrwx. 1 alon alon  6 Oct 22 00:45 home -> /home/
-
-# soft link to the /home is created on /tmp
+~$ rm link-file.txt
 {% endhighlight %}
 
-
-# Example for Hard Link
-
+Remove directory link 
 {% highlight ruby %}
-
-[root@localhost Data]$ sudo  ln /etc/hosts .
-[root@localhost Data]$ ls -l
-total 4
--rw-r--r--. 3 root root 158 Jun  7  2013 hosts
-
+~$ rm -f softlink-dir/
 {% endhighlight %}
 
-{% include note.html content= " For creating hard links you must be the owner of that file." %}
-
-# Removing Link
-Removing links on Linux is a bit risky task to do. You might create an error working program or [loses the data](https://stechalon.com/install-systemback-restore-previous-state-ubuntu-linux){:target="_blank"}. Below shows the example of removing links.
-
+To get prompted before removing the symlink, use the -i option:
 {% highlight ruby %}
-#create directory in your home directory
-
-[alon@localhost ~]$ mkdir test
-
-#copy /etc/hosts in test directory
-
-[alon@localhost ~]$ cp /etc/hosts /home/alon/test/
-
-#create soft link of test as link
-
-[alon@localhost ~]$ ln -s test link
-
-#remove link
-
-[alon@localhost ~]$ rm link
-
+~$ rm -i linkfile.txt
 {% endhighlight %}
 
-{% include warning.html content= " Do not use -r or -f to remove link. You will lose the data from the original file." %}
-
 {% highlight ruby %}
-#creating link again
+Output:
 
-[alon@localhost ~]$ ln -s test link
-
-#using -rf
-
-[alon@localhost ~]$ rm -rf link/
-[alon@localhost ~]$ ls -l
-total 0
-lrwxrwxrwx. 1 0 0 4 Oct 22 01:08 link -> test
-drwxr-xr-x. 2 0 0 6 Oct 22 01:08 test
-
-#you will still see the link exist, but your original directory test will be empty.
-
-[alon@localhost ~]$ ls test/
-
+rm: remove regular file 'linkfile.txt'?
 {% endhighlight %}
-
-{% include summaryCallout.html heading= "Summary" content= "In this articel, you learned how to manage and work with hard links symbolic (soft) links on Linux. Please feel free to write me if need any help." %}
-
-> **Reference**
->  > Red Hat® RHCSA™/RHCE® 7 Cert Guide: Red Hat Enterprise Linux 7 (EX200 and EX300) Sander van Vugt.
