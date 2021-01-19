@@ -23,15 +23,21 @@ So, you want to host your website? I guess it's yes because you are on this page
 
 Not to worry, you are in the right place. Today, I will help you to find the best web hosting companies having reliability also at affordable prices in Nepal.
 
-If you don't want to read this whole article and want a direct answer then it's **[Himalayan Host](https://www.himalayanhost.com/aff.php?aff=259){:target="_blank"}{:rel="nofollow"}**. 
+If you don't want to read this whole article and want a direct answer then you can choose **[Himalayan Host](https://www.himalayanhost.com/aff.php?aff=259){:target="_blank"}{:rel="nofollow"}** without any doubt. 
 
-But if you are looking for more than this for example: beginner hosting, cheapest hosting, free hosting, etc then you should definitely read this article completely. I am sure you will discover new things.
+But if you are looking for more **for example**: beginner hosting, cheapest hosting, free hosting, etc then you should definitely read this article completely. I am sure you will discover new things.
+
+<ins>**Check this**</ins>: If you are also searching for [Best WordPress hosting in Nepal](https://stechalon.com/best-wordpress-hosting-nepal){:target="_blank"}.
 
 Choosing a perfect web hosting service is not that difficult as you think. 
 
-You just need to know what shape and size your website has and how much traffic(users) visits your website per day or month.
+You just need to know what shape and size your website has and how much traffic(users) visits your website per day or month. What I meant here is 
 
-After knowing these, your finding of the best web hosting service task is almost done.
+- **Shape**: In which platform your website is built? (eg: JAVA, Python(Django), PHP, etc)
+- **Size**: How much disk space does your site needs?
+- **Traffic**: What amount of bandwidht does your website needs?  
+
+After knowing these, your finding of the "best web hosting in Nepal" is almost done.
 
 Web hosting services come with different plans categorized in all shape and sizes.
 
@@ -39,21 +45,26 @@ If you have searched or tried to buy hosting services then you should have heard
 
 These terms are nothing but just a hosting service categorized for you according to your website types.
 
-Let me explain these terms in short for you. If you already know what these terms mean then you can [skip this part](https://stechalon.com/web-hosting-nepal#reseller-hosting).
+Let me explain these terms in short. If you know what these terms mean then you can [skip this part](https://stechalon.com/web-hosting-nepal#reseller-hosting).
 
 ### Shared Hosting (For Beginners)
 In shared hosting, single server resources are being shared with multiple users. The individual user hosting their website on this server has no idea about other users hosting their websites on the same server. Individual customers will have a limited number of resources.
 
+I suggest you to use this kind of hosting if you have light weight website or a beginner wordpress blogger.
+
 ### VPS: Virtual Private Server (For Professional)
 VPS is still similar to shared hosting with optimized performance. In this case, your website shares a server with other websites. This kind of server is partitioned into different virtualized servers. Simply to understand this kind of server is rented out and operates as independent servers from one another.
+
+This will be best for hosting multiple websites sharing a same server. Also, good to go with the website application using many resources. 
 
 ### Dedicated Hosting (For Business)
 In dedicated hosting, a single business customer has complete access and control over the server. Security and performance are more optimized and expensive than other hosting plans.
 
+Select this plan if your website needs personal server with full resources. 
 ### Reseller Hosting
 About reseller hosting, from the name itself, it’s clear. The reseller purchases the host’s services at a wholesale rate and then sells them to customers. This hosting is possibly a profit base plan. Now, it’s you to select the service depending upon how much budget you have and which service best fits your website.
 
-I have nearly hosted **100 websites** and reviewed most of the hosting services of Nepal. Read this article in-depth so that you can save money, and pick up the right web host plan.
+I have hosted different types of websites and used most of the hosting services of Nepal. Read this article in-depth so that you can save money, and pick up the right web host plan.
 
 If you have better suggestions than mentioned below companies then please let me know in the comment below.
 
