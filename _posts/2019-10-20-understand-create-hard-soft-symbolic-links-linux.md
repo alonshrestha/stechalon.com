@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Difference Between Hard Link and Symbolic Link"
-heading: "Hard Link Vs Symbolic Link In Linux"
+heading: "Difference Between Hard Link and Symbolic Link"
 categories: [linux]
 image: understand-create-hard-soft-symbolic-links-linux/1.png
 tags:
