@@ -60,5 +60,3 @@ Here are the some advantages and disadvantes of using jekyll and GitHub-Pages.
 ### Cons
 - Programming and GitHub knowledge are required
 - Supports Static Sites Only
-
-{% include successCallout.html heading= "Plese let me know your thought on using jekyll and gh-pages for blogging. Also, If you need any help on this reach me commenting down below." %}
