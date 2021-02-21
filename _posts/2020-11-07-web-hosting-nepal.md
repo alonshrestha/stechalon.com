@@ -55,8 +55,6 @@ In this article, I will guide you about what is web hosting, different types of 
 
 Not only that, you will also find the best, cheapest and free web hosting services available at the moment in Nepal.
 
-If you do not want to read this article thoroughly then you can jump directly to the hosting service provider section.
-
 Since this is a lengthy article, I have created a table of content which makes you easy to navigate. If you do not want to read this article thoroughly then you can directly jump to different sections you like.
 
 > **Table Of Content**
