@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Create Your Own (CS:GO) Counter-Strike Dedicated Server"
-heading: "How To Create Personal Custom (CS:GO) Counter-Strike: Global Offensive Dedicated Linux Server (Ubuntu/CentOS)"
+title:  "How To Host CS:GO Dedicated Server"
+heading: "Create Custom (CS:GO) Counter-Strike: Global Offensive Dedicated Linux Server (Ubuntu/CentOS)"
 image: how-to-create-your-own-csgo-counter-strike-global-offensive-dedicated-custom-server-ubuntu-centos/main.webp
 categories: [linux, gaming]
 tags: 
@@ -11,17 +11,24 @@ tags:
 - Dedicated Server
 - Ubuntu
 - CentOS
-description: "How to create your own personal custom dedicated counter-strike: global offensive (cs:go) server on Linux ubuntu and centos."
+description: "How to host personal custom dedicated counter-strike: global offensive (cs:go) server on Linux ubuntu and centos."
 --- 
 Ready for gaming? Yeah! haha &#128526;. Playing games with your friends on a personal server at lower than 5 pings is an awesome feeling that only gamers can understand.
 
-Over two months ago I had built my personal server for Counter-Strike: Global Offensive (CS:GO) to play with my friends. Trust me it was far more fun than expected as well as helped me to earn some money. How? I will let you know shortly.
+Over two months ago I had built my personal server for Counter-Strike: Global Offensive (CS:GO) to play with my friends. Trust me it was far more fun than expected.
 
-However, if you are new to this and have no technical knowledge I will suggest you go deep in the article else you can directly jump to the [setup section](http://stechalon.com/how-to-create-your-own-csgo-counter-strike-global-offensive-dedicated-custom-server-ubuntu-centos#setup-counter-strike-global-offensive-csgo-in-ubuntucentos-server). 
-
-Steam allows you to setup a custom server changing different settings like tick rate, number of players, base map, game rule, etc. Also, you can download and install free custom skins for your weapons. It's like you are the admin and you can change any function as you want.
+Steam allows you to setup a custom server changing different settings like tick rate, number of players, base map, game rule, etc. Also, you can download and install free custom skins for your weapons.
 
 Creating a custom CS:GO server on Linux is not as difficult as you think. You don't need to be from a technical background. Setup can be done easily by entering a few commands which I will be guiding you step by step. 
+
+This is a complete guide helps you to setup cs:go dedicated server on linux. Since, it is a long article, I have created a table of content which will be easy for you to nagivate. 
+
+> **Table Of Content**
+
+* TOC
+{:toc}
+
+However, if you are new to this and have no technical knowledge I suggest you go step by step so you can setup the server without any issues.
 
 Before moving on to the command guide you should know the system requirements to setup custom CS:GO and the hosting provider where you can get the best server at an affordable price.
 
@@ -47,7 +54,7 @@ Now, we will need a VPS(Virtual Private Server) to deploy CS:GO. For that, I hav
 ## Affordable VPS Hosting For Counter-Strike: Global Offensive (CS:GO) 
 The below mention hosting price is in special offer. This offer is only available for certain period of time.
 
-### [Hostinger: $8.95 / Month (55% OFF)](https://www.hostg.xyz/aff_c?offer_id=6&aff_id=57845&url_id=19){:target='_blank'}{:rel='nofollow'}
+**[Hostinger: $8.95 / Month (55% OFF)](https://www.hostg.xyz/aff_c?offer_id=6&aff_id=57845&url_id=19){:target='_blank'}{:rel='nofollow'}**
 - RAM: 2 GB
 - Disk Space: 40 GB
 - Bandwidth: 2 TB
@@ -63,17 +70,15 @@ Select Linux operating systems such as Ubuntu or CentOS. This article will guide
 ## Setup Counter-Strike: Global Offensive (CS:GO) In Ubuntu/CentOS Server 
 Login to your instance through ssh with the **root** user account. First, we need to install a library that helps steamCMD to run in the operating system. 
 
-### Installing Library In Ubuntu
+### Installing Library
 
-**Step 1**: Install lib32gcc1 package in the ubuntu server.
+**Step 1**: Install lib32gcc1 package in the **ubuntu** server.
 
 {%highlight ruby%}
 sudo apt-get install lib32gcc1
 {%endhighlight%}
 
-### Installing Library In CentOS
-
-**Step 1**: Install the required library to run SteamCMD in centOS.
+Install the required library to run SteamCMD in **centOS** server.
 
 {%highlight ruby%}
 yum install glibc.i686 libstdc++.i686 -y
@@ -96,7 +101,7 @@ su - steam
 mkdir ~ / Steam && cd ~ / Steam
 {%endhighlight%}
 
-### Downloading and Installing SteamCMD.
+### Downloading and Installing SteamCMD
 
 **Step 4**: Download the latest version of SteamCMD.
 {%highlight ruby%}
@@ -157,7 +162,8 @@ Allow TCP and UDP ports from your server. It is better to allow specific ports, 
 
 ![Downloading and Installing SteamCMD In Linux | sTechalon.com](/static/img/posts/how-to-create-your-own-csgo-counter-strike-global-offensive-dedicated-custom-server-ubuntu-centos/4.PNG)
 You can also do this from the command line in your server by typing:
-### CentOS
+
+**CentOS**
 {%highlight ruby%}
 firewall-cmd --zone=public --add-port=27015/tcp --permanent
 firewall-cmd --zone=public --add-port=27015/udp --permanent
@@ -250,12 +256,13 @@ Usually, when you run the command and host the game in a normal session, your ga
 And, It is not possible to host your game by staying logged in 24x7 on the server. So, we will host the game in a background session. This process will run your game ever until you kill that process by yourself. 
 
 For that, we will install a screen utility on the server.
-### Install Screen In Ubuntu
+
+**Install Screen In Ubuntu**
 {%highlight ruby%}
 sudo apt-get install screen -y
 {%endhighlight%}
 
-### Install Screen In CentOS
+**Install Screen In CentOS**
 {%highlight ruby%}
 sudo yum install screen -y
 {%endhighlight%}
