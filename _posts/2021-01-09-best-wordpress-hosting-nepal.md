@@ -56,7 +56,7 @@ The updated list for best WordPress hosting in 2021:
 - **Prabhu Host**
 - **Himalayan Host**
 - **AGM Host**
-- **Babbal Host**
+- **Babal Host**
 
 <style>
 #customers {
